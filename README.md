@@ -4,6 +4,7 @@ zerojudge解題紀錄
 
 ## cpp
 
+- [a003](./a003/main.cpp)
 ## python
 
 ## 待解
