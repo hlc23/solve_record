@@ -1,3 +1,5 @@
+//https://zerojudge.tw/ShowProblem?problemid=a003
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -6,13 +8,12 @@ int main(int argc, char** argv) {
 	int M,D;
 	cin>>M>>D;
 	if ((M*2+D)%3 == 0){
-		cout<<"´¶";
+		cout<<"Â´Â¶";
 	}
 	else if ((M*2+D)%3 == 1){
-		cout<<"¦N";
+		cout<<"Â¦N";
 	}
 	else{
-		cout<<"¤j¦N";
+		cout<<"Â¤jÂ¦N";
 	}
 }
-

@@ -1,4 +1,5 @@
-﻿inp = input().split(" ")
+﻿# https://zerojudge.tw/ShowProblem?problemid=a006
+inp = input().split(" ")
 
 a = float(inp[0])
 b = float(inp[1])
