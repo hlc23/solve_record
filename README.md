@@ -4,9 +4,9 @@ zerojudge解題紀錄
 
 ## cpp
 
-##python
+## python
 
-##待解
+## 待解
 
 
 - [a034: 二進位制轉換](https://zerojudge.tw/ShowProblem?problemid=a034)
