@@ -1,8 +1,6 @@
 
 # zerojudge
 
-zerojudge解題紀錄
-
 ## 題目
 
 ### cpp
