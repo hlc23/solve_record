@@ -35,7 +35,7 @@ zerojudge解題紀錄
 ### VNt題目 C++ 第1卷
 
 - [c022: 10783 - Odd Sum](./c022/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c022)
-- [d049: 中華民國萬歲！](None) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d049)
+- d049: 中華民國萬歲！ [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d049)
 - [d051: 糟糕，我發燒了！](./d051/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d051)
 - [c024: 10079 - Pizza Cutting](./c024/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c024)
 - [d073: 分組報告](./d073/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d073)
