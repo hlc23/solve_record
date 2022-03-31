@@ -3,7 +3,9 @@
 
 zerojudge解題紀錄
 
-## cpp
+## 題目
+
+### cpp
 
 - [a003: 兩光法師占卜術](./a003/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
 - [a005: Eva 的回家作業](./a005/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a005)
@@ -12,7 +14,7 @@ zerojudge解題紀錄
 - [a148: You Cannot Pass?!](./a148/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a148)
 - [d010: 盈數、虧數和完全數](./d010/d010.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d010)
 
-## python
+### python
 
 - [a006: 一元二次方程式](./a006/d006.py) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a006)
 - [d010: 盈數、虧數和完全數](./d010/d010.py) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d010)
@@ -26,7 +28,13 @@ zerojudge解題紀錄
 - [d669: 11677 - Alarm Clock](./d669/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d669)
 - [d827: 買鉛筆](./d827/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d827)
 - [e834: P1.批發出貨(Wholesale)](./e834/e834.cppcpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e834)
-- [e835: p2.表演座位 (Seats)](./e835/e835.cppcpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e834)
+- [e835: p2.表演座位 (Seats)](./e835/e835.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e834)
+
+## 競賽
+
+### VNt題目 C++ 第1卷
+
+- [c022: 10783 - Odd Sum](./c022/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c022)
 
 ## 待解
 
