@@ -7,7 +7,7 @@
 
 #### cpp
 
-- [a003: 兩光法師占卜術](./a003/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
+- [a003: 兩光法師占卜術](./a003/) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
 - [a005: Eva 的回家作業](./a005/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a005)
 - [a006: 一元二次方程式](./a006/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a006)
 - [a058: MOD3](./a058/main.cpp) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a058)
