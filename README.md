@@ -43,5 +43,6 @@
 ### 待解
 
 - [a034: 二進位制轉換](https://zerojudge.tw/ShowProblem?problemid=a034)
+- [a121: 質數又來囉](https://zerojudge.tw/ShowProblem?problemid=a121)
 - [d097: 10038 - Jolly Jumpers](https://zerojudge.tw/ShowProblem?problemid=d097)
 - [d669: 11677 - Alarm Clock](./zerojudge/d669/d669.py) [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d669)
