@@ -41,3 +41,5 @@ S=(M*2+D)%3
 [程式碼](https://github.com/henryleecode23/solve_record/blob/main/a003/main.cpp)
 
 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
+
+[回首頁](https://henryleecode23.github.io/solve_record/)
