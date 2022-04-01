@@ -46,7 +46,7 @@ S=(M*2+D)%3
 吉
 ```
 
-[程式碼](https://github.com/henryleecode23/solve_record/blob/main/a003/main.cpp)
+[程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)
 
 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
 
