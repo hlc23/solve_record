@@ -43,7 +43,8 @@ S=(M*2+D)%3
 吉
 ```
 
-[程式碼Github](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)
+## 程式碼
+[cpp](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)
 
 ```cpp
 #include <bits/stdc++.h>
