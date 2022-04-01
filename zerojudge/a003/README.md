@@ -43,7 +43,27 @@ S=(M*2+D)%3
 吉
 ```
 
-[程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)
+[程式碼Github](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	int M,D;
+	cin>>M>>D;
+	if ((M*2+D)%3 == 0){
+		cout<<"普通";
+	}
+	else if ((M*2+D)%3 == 1){
+		cout<<"吉";
+	}
+	else{
+		cout<<"大吉";
+	}
+}
+```
 
 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
 
