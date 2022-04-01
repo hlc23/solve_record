@@ -1,4 +1,3 @@
-//https://zerojudge.tw/ShowProblem?problemid=a005
 #include <iostream>
 using namespace std;
 
