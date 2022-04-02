@@ -52,7 +52,6 @@ S=(M*2+D)%3
 ```
 
 ## 程式碼
-[cpp](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)
 
 ```cpp
 #include <bits/stdc++.h>
@@ -74,6 +73,13 @@ int main(int argc, char** argv) {
 }
 ```
 
-題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
+## 標籤
 
-[回首頁](https://henryleecode23.github.io/solve_record/)
+- 曆法
+
+## 連結
+
+- GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
