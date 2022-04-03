@@ -27,12 +27,14 @@ M=月D=日 S=(M*2+D)%3
 
 ```text
 輸入:
-1 1
+1 1
+
 
 ---
 
 輸出:
-普通
+普通
+
 ```
 
 範例2
@@ -82,3 +84,5 @@ int main(int argc, char** argv) {
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+[test](test.md)
