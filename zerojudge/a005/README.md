@@ -35,7 +35,7 @@
 ```
 
 ## 程式碼
-
+    
 c++
 
 ```cpp
@@ -66,6 +66,7 @@ int main() {
 ## 標籤
 
 - 迴圈
+
 
 ## 連結
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a005/main.cpp)

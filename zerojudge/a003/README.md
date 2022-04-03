@@ -48,7 +48,7 @@ M=月D=日 S=(M*2+D)%3
 ```
 
 ## 程式碼
-
+    
 c++
 
 ```cpp
@@ -75,6 +75,7 @@ int main(int argc, char** argv) {
 ## 標籤
 
 - 曆法
+
 
 ## 連結
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)

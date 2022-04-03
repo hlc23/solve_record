@@ -36,7 +36,7 @@
 ```
 
 ## 程式碼
-
+    
 c++
 
 ```cpp
@@ -70,7 +70,9 @@ int main(){
 
 ## 標籤
 
-- if- 數學
+- if
+- 數學
+
 
 ## 連結
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a058/main.cpp)

@@ -32,7 +32,7 @@
 ```
 
 ## 程式碼
-
+    
 c++
 
 ```cpp
@@ -52,6 +52,7 @@ int main(int argc, char** argv) {
 ## 標籤
 
 - 浮點數
+
 
 ## 連結
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d051/main.cpp)

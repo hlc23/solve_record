@@ -71,7 +71,10 @@ int main()
 
 ## 標籤
 
-- while- 曆法- 迴圈
+- while
+- 曆法
+- 迴圈
+
 
 ## 連結
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d070/main.cpp)

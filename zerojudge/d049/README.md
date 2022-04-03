@@ -44,7 +44,7 @@
 ```
 
 ## 程式碼
-
+    
 c++
 
 ```cpp
@@ -62,7 +62,10 @@ int main() {
 
 ## 標籤
 
-- 變數- 輸出入- 運算子
+- 變數
+- 輸出入
+- 運算子
+
 
 ## 連結
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d049/main.cpp)

@@ -66,7 +66,9 @@ int main(int argc, char** argv) {
 
 ## 標籤
 
-- 比較運算子- 算術運算子
+- 比較運算子
+- 算術運算子
+
 
 ## 連結
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d068/main.cpp)

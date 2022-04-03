@@ -1,13 +1,19 @@
 from zerojudge_crawler import zj_crawler
 import os
 
-id = input()
-zj = zj_crawler(id)
+with open("error.txt",mode = "w",encoding="utf-8") as error:
+    pass
+for id in os.listdir("./zerojudge"):
+    if id == "template.md":
+        continue
+    print("running id :",id)
 
-try:
-    with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
-        md.write(
-f'''
+
+    try:
+        zj = zj_crawler(id)
+        with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
+            md.write(
+    f'''
 # {zj.title}
 
 ## 敘述
@@ -27,9 +33,9 @@ f'''
 ## 範例
 
 ''')
-        c = 1
-        for t in range(zj.ex_test_case_quantity):
-            md.write(f'''
+            c = 1
+            for t in range(zj.ex_test_case_quantity):
+                md.write(f'''
 範例{c}
 
 ```text
@@ -40,51 +46,51 @@ f'''
 輸出:
 {zj.ex_output_list[t]}```
 ''')
-            c += 1
-        md.write('''
+                c += 1
+            md.write('''
 ## 程式碼
     ''')
-        if "main.cpp" in os.listdir(f"./zerojudge/{id}/"):
-            with open(f"./zerojudge/{id}/main.cpp",mode="r",encoding="utf-8") as cpp:
-                cpp_code = cpp.read()
-            md.write(f'''
+            if "main.cpp" in os.listdir(f"./zerojudge/{id}/"):
+                with open(f"./zerojudge/{id}/main.cpp",mode="r",encoding="utf-8") as cpp:
+                    cpp_code = cpp.read()
+                md.write(f'''
 c++
 
 ```cpp
 {cpp_code}
 ```
 ''')
-        if "main.py" in os.listdir(f"./zerojudge/{id}/"):
-            with open(f"./zerojudge/{id}/main.py",encoding="utf-8") as py:
-                py_code = py.read()
-            md.write(f'''
+            if "main.py" in os.listdir(f"./zerojudge/{id}/"):
+                with open(f"./zerojudge/{id}/main.py",encoding="utf-8") as py:
+                    py_code = py.read()
+                md.write(f'''
 py
 
 ```py
 {py_code}
 ```
 ''')
-        md.write('\n## 標籤\n\n')
-        for t in range(len(zj.tags_list)):
-            md.write(f"- {zj.tags_list[t]}")
+            md.write('\n## 標籤\n\n')
+            for t in range(len(zj.tags_list)):
+                md.write(f"- {zj.tags_list[t]}\n")
 
-        md.write('''\n\n## 連結''')
-        if "main.cpp" in os.listdir(f"./zerojudge/{id}/"):
-            md.write(f'''
+            md.write('''\n\n## 連結''')
+            if "main.cpp" in os.listdir(f"./zerojudge/{id}/"):
+                md.write(f'''
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.cpp)
 ''')
-        if "main.py" in os.listdir(f"./zerojudge/{id}/"):
-            md.write(f'''
+            if "main.py" in os.listdir(f"./zerojudge/{id}/"):
+                md.write(f'''
 - GitHub: [Python程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.py)
 ''')
-        md.write(f'''
+            md.write(f'''
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid={id})
 ''')
 
-        md.write("## [回首頁](https://henryleecode23.github.io/solve_record/)")
-except:
-    with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
-        md.write('''
+            md.write("## [回首頁](https://henryleecode23.github.io/solve_record/)")
+    except:
+        with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
+            md.write('''
 # 錯誤
 
 # 作者太弱了,程式在生成這一頁時發生了錯誤
@@ -93,5 +99,5 @@ except:
 
 # [回首頁](https://henryleecode23.github.io/solve_record/)
 ''')
-    with open("error.txt",mode="a",encoding="utf-8") as error:
-        error.write(f"{id}\n")
+        with open("error.txt",mode="a",encoding="utf-8") as error:
+            error.write(f"{id}\n")
