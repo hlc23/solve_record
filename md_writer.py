@@ -93,3 +93,5 @@ except:
 
 # [回首頁](https://henryleecode23.github.io/solve_record/)
 ''')
+    with open("error.txt",mode="a",encoding="utf-8") as error:
+        error.write(f"{id}\n")

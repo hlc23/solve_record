@@ -6,3 +6,4 @@
 *.win
 *.out
 *note.txt
+*__pycache__
