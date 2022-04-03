@@ -30,6 +30,7 @@ Eva的家庭作業裏有很多數列填空練習。填空練習的要求是：�
 ```
 
 ## 程式碼
+
 [cpp](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a005/main.cpp)
 
 ```cpp
