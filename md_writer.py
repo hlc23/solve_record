@@ -18,6 +18,7 @@ f'''
 輸入:
 
 {zj.input_illustrate}
+
 ---
 
 輸出:
@@ -75,6 +76,9 @@ py
     if "main.py" in os.listdir(f"./zerojudge/{id}/"):
         md.write(f'''
 - GitHub: [Python程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.py)
+''')
+    md.write(f'''
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid={id})
 ''')
 
     md.write("## [回首頁](https://henryleecode23.github.io/solve_record/)")
