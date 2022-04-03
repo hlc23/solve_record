@@ -84,5 +84,3 @@ int main(int argc, char** argv) {
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
-
-[test](test.md)
