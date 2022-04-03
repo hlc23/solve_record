@@ -18,13 +18,13 @@ int run(int N) {
         sum += vec[t];
     }
     if (N == sum) {
-        cout<<"§¹¥ş¼Æ"<<endl;
+        cout<<"å®Œå…¨æ•¸"<<endl;
     }
     else if (N > sum){
-        cout<<"Á«¼Æ"<<endl;
+        cout<<"è™§æ•¸"<<endl;
     }
     else if (N < sum){
-        cout<<"¬Õ¼Æ"<<endl;
+        cout<<"ç›ˆæ•¸"<<endl;
     }
 
     return 0;

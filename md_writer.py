@@ -45,7 +45,7 @@ f'''
 ## 程式碼
 ''')
     if "main.cpp" in os.listdir(f"./zerojudge/{id}/"):
-        with open(f"./zerojudge/{id}/main.cpp",encoding="utf-8") as cpp:
+        with open(f"./zerojudge/{id}/main.cpp",mode="r",encoding="utf-8") as cpp:
             cpp_code = cpp.read()
         md.write(f'''
 c++
