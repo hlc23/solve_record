@@ -89,6 +89,7 @@ int main() {
 
 ## 標籤
 
+
 ## 連結
 
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/e834/main.cpp)
