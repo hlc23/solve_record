@@ -16,8 +16,8 @@
 輸出:
 
 若你被當了，請輸出「yes」，否則輸出「no」。
-## 範例
 
+## 範例
 
 範例1
 
@@ -35,8 +35,8 @@ no
 ```
 
 ## 程式碼
-    
-c++
+
+cpp
 
 ```cpp
 #include <iostream>
@@ -68,12 +68,13 @@ int main() {
 ```
 
 ## 標籤
-
 - 數學
 
 
 ## 連結
-- GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a148/main.cpp)
+
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a148/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a148)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)

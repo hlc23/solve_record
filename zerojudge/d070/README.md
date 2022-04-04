@@ -24,8 +24,8 @@
 輸出:
 
 對於所輸入的每個 y，要各別輸出一行。若 y 是閏年，請於該行輸出「a leap year」，否則請輸出「a normal year」。
-## 範例
 
+## 範例
 
 範例1
 
@@ -47,8 +47,8 @@ a leap year
 ```
 
 ## 程式碼
-    
-c++
+
+cpp
 
 ```cpp
 #include<iostream>
@@ -70,14 +70,15 @@ int main()
 ```
 
 ## 標籤
-
 - while
 - 曆法
 - 迴圈
 
 
 ## 連結
-- GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d070/main.cpp)
+
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d070/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d070)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)

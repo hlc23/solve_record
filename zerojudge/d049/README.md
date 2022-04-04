@@ -16,8 +16,8 @@
 輸出:
 
 輸出所算出的民國年份。
-## 範例
 
+## 範例
 
 範例1
 
@@ -44,8 +44,8 @@
 ```
 
 ## 程式碼
-    
-c++
+
+cpp
 
 ```cpp
 #include <bits/stdc++.h>
@@ -61,14 +61,15 @@ int main() {
 ```
 
 ## 標籤
-
 - 變數
 - 輸出入
 - 運算子
 
 
 ## 連結
-- GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d049/main.cpp)
+
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d049/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d049)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)

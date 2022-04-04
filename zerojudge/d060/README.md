@@ -16,8 +16,8 @@
 輸出:
 
 輸出還要等幾分鐘文文才能打電話。
-## 範例
 
+## 範例
 
 範例1
 
@@ -32,8 +32,8 @@
 ```
 
 ## 程式碼
-    
-c++
+
+cpp
 
 ```cpp
 #include <bits/stdc++.h>
@@ -50,12 +50,13 @@ int main(int argc, char** argv) {
 ```
 
 ## 標籤
-
 - 算術運算子
 
 
 ## 連結
-- GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d060/main.cpp)
+
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d060/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d060)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
