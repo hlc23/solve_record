@@ -69,9 +69,9 @@ py
 {py_code}
 ```
 ''')
-            md.write('\n## 標籤')
+            md.write('\n## 標籤\n')
             for t in range(len(zj.tags_list)):
-                md.write(f"\n- {zj.tags_list[t]}\n")
+                md.write(f"- {zj.tags_list[t]}\n")
 
             md.write('''\n\n## 連結''')
             md.write("\n")
