@@ -29,9 +29,8 @@ for id in os.listdir("./zerojudge"):
 
 輸出:
 
-{zj.output_illustrate}
+{zj.output_illustrate}\n
 ## 範例
-
 ''')
             c = 1
             for t in range(zj.ex_test_case_quantity):
@@ -70,11 +69,12 @@ py
 {py_code}
 ```
 ''')
-            md.write('\n## 標籤\n\n')
+            md.write('\n## 標籤')
             for t in range(len(zj.tags_list)):
-                md.write(f"- {zj.tags_list[t]}\n")
+                md.write(f"\n- {zj.tags_list[t]}\n")
 
             md.write('''\n\n## 連結''')
+            md.write("\n")
             if "main.cpp" in os.listdir(f"./zerojudge/{id}/"):
                 md.write(f'''
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.cpp)
@@ -86,8 +86,9 @@ py
             md.write(f'''
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid={id})
 ''')
-
+            md.write("\n")
             md.write("## [回首頁](https://henryleecode23.github.io/solve_record/)")
+            md.write("\n")
     except:
         with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
             md.write('''

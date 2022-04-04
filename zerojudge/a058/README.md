@@ -16,8 +16,8 @@
 輸出:
 
 輸出三個數字(以空白隔開)，分別為n個數字中，三的倍數、三的倍數+1、三的倍數+2的數量
-## 範例
 
+## 範例
 
 範例1
 
@@ -69,13 +69,15 @@ int main(){
 ```
 
 ## 標籤
-
 - if
+
 - 數學
 
 
 ## 連結
+
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a058/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a058)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)

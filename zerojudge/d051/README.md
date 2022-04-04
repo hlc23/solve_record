@@ -16,8 +16,8 @@
 輸出:
 
 輸出計算所得的攝氐溫度，精確到小數點以下三位。
-## 範例
 
+## 範例
 
 範例1
 
@@ -50,12 +50,13 @@ int main(int argc, char** argv) {
 ```
 
 ## 標籤
-
 - 浮點數
 
 
 ## 連結
+
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d051/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d051)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)

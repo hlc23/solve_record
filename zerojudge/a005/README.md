@@ -16,8 +16,8 @@
 輸出:
 
 對輸入的每個數列，輸出它的前五項。
-## 範例
 
+## 範例
 
 範例1
 
@@ -64,12 +64,13 @@ int main() {
 ```
 
 ## 標籤
-
 - 迴圈
 
 
 ## 連結
+
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a005/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a005)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)

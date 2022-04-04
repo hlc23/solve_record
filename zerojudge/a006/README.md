@@ -19,8 +19,8 @@ Two different roots x1=?? , x2=??
 Two same roots x=??
 No real root
 PS: 答案均為整數，若有兩個根則大者在前
-## 範例
 
+## 範例
 
 範例1
 
@@ -89,12 +89,13 @@ else:
 ```
 
 ## 標籤
-
 - 數學
 
 
 ## 連結
+
 - GitHub: [Python程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.py)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a006)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)

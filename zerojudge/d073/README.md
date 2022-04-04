@@ -16,8 +16,8 @@
 輸出:
 
 輸出該同學的組別。
-## 範例
 
+## 範例
 
 範例1
 
@@ -63,12 +63,13 @@ int main(int argc, char** argv) {
 ```
 
 ## 標籤
-
 - 算術運算子
 
 
 ## 連結
+
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d073/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d073)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)

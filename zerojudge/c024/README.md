@@ -16,8 +16,8 @@ Pizza大家都吃過吧！我個人是偏愛達美樂Pizza啦！現在問題來�
 輸出:
 
 對每一輸入N，輸出切N刀最多可以切成幾塊Pizza。
-## 範例
 
+## 範例
 
 範例1
 
@@ -77,10 +77,10 @@ int main() {
 
 ## 標籤
 
-
-
 ## 連結
+
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c024/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c024)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)

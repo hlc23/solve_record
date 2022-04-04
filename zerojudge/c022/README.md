@@ -16,8 +16,8 @@
 輸出:
 
 每組測試資料輸出一列，內容為 a 及 b 間所有奇數的和。
-## 範例
 
+## 範例
 
 範例1
 
@@ -62,10 +62,10 @@ int main() {
 
 ## 標籤
 
-
-
 ## 連結
+
 - GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c022/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c022)
+
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
