@@ -7,6 +7,7 @@
 
 #### cpp
 
+- [a001. 哈囉](./zerojudge/a001/)
 - [a003: 兩光法師占卜術](./zerojudge/a003/)
 - [a005: Eva 的回家作業](./zerojudge/a005/)
 - [a006: 一元二次方程式](./zerojudge/a006/)
