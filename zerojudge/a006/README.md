@@ -59,7 +59,7 @@ No real root
 ```
 
 ## 程式碼
-    
+
 py
 
 ```py
@@ -94,7 +94,7 @@ else:
 
 ## 連結
 
-- GitHub: [Python程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.py)
+- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.py)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a006)
 

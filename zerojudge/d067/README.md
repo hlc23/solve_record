@@ -5,4 +5,6 @@
 
 ## 歡迎各路大佬指教
 
+# 題目來源: [d067:格瑞哥里的煩惱 (1 行版)](https://zerojudge.tw/ShowProblem?problemid=d067)
+
 # [回首頁](https://henryleecode23.github.io/solve_record/)

@@ -61,8 +61,8 @@ Y19m08a_p1_批發出貨(Wholesale)    2019年,08月,TOI, 新手同好會 {題
 ```
 
 ## 程式碼
-    
-c++
+
+cpp
 
 ```cpp
 #include <iostream>
@@ -89,10 +89,11 @@ int main() {
 
 ## 標籤
 
+無
 
 ## 連結
 
-- GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/e834/main.cpp)
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/e834/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e834)
 

@@ -33,8 +33,8 @@ Pizza大家都吃過吧！我個人是偏愛達美樂Pizza啦！現在問題來�
 56```
 
 ## 程式碼
-    
-c++
+
+cpp
 
 ```cpp
 #include <bits/stdc++.h>
@@ -77,10 +77,11 @@ int main() {
 
 ## 標籤
 
+無
 
 ## 連結
 
-- GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c024/main.cpp)
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c024/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c024)
 

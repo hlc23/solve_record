@@ -5,4 +5,6 @@
 
 ## 歡迎各路大佬指教
 
+# 題目來源: [d010:盈數、虧數和完全數](https://zerojudge.tw/ShowProblem?problemid=d010)
+
 # [回首頁](https://henryleecode23.github.io/solve_record/)

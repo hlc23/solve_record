@@ -35,8 +35,8 @@
 ```
 
 ## 程式碼
-    
-c++
+
+cpp
 
 ```cpp
 #include <iostream>
@@ -69,7 +69,7 @@ int main() {
 
 ## 連結
 
-- GitHub: [C++程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a005/main.cpp)
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a005/main.cpp)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a005)
 
