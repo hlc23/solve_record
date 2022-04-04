@@ -3,7 +3,7 @@ import os
 
 def serach_language(id):
     '''
-    判斷有哪些語言的程式碼
+    判斷此id有哪些語言
     '''
     language = ["cpp","py"]
     run_language = []
