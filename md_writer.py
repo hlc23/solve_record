@@ -1,6 +1,17 @@
 from zerojudge_crawler import zj_crawler
 import os
 
+def serach_language(id):
+    '''
+    判斷有哪些語言的程式碼
+    '''
+    language = ["cpp","py"]
+    run_language = []
+    for l in language:
+        if f"main.{l}" in os.listdir(f"./zerojudge/{id}/"):
+            run_language.append(l)
+    return run_language
+
 # 重置error.txt
 with open("error.txt",mode = "w",encoding="utf-8") as error:
     pass
@@ -102,7 +113,7 @@ py
             # 回首頁
             md.write("## [回首頁](https://henryleecode23.github.io/solve_record/)")
             md.write("\n")
-    except UnicodeDecodeError:
+    except UnicodeDecodeError: #編碼錯誤
         with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
             md.write('''
 # 錯誤
@@ -115,7 +126,7 @@ py
 ''')
         with open("error.txt",mode="a",encoding="utf-8") as error:
             error.write(f"{id}: 編碼錯誤\n")
-    except:
+    except: #未知錯誤
         with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
             md.write('''
 # 錯誤
