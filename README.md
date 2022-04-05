@@ -7,7 +7,6 @@
 
 #### cpp
 
-- [a001. 哈囉](./zerojudge/a001/)
 - [a003: 兩光法師占卜術](./zerojudge/a003/)
 - [a005: Eva 的回家作業](./zerojudge/a005/)
 - [a006: 一元二次方程式](./zerojudge/a006/)
@@ -28,6 +27,7 @@
 
 #### python
 
+- [a001. 哈囉](./zerojudge/a001/)
 - [a006: 一元二次方程式](./zerojudge/a006/)
 - [d010: 盈數、虧數和完全數](./zerojudge/d010/)
 
