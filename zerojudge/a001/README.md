@@ -30,6 +30,7 @@ world
 
 輸出:
 hello, world
+
 ```
 
 範例2
@@ -42,6 +43,7 @@ C++
 
 輸出:
 hello, C++
+
 ```
 
 範例3
@@ -54,6 +56,7 @@ Taiwan
 
 輸出:
 hello, Taiwan
+
 ```
 
 ## 程式碼

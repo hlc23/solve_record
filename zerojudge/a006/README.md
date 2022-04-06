@@ -32,6 +32,7 @@ PS: 答案均為整數，若有兩個根則大者在前
 
 輸出:
 Two different roots x1=2 , x2=-5
+
 ```
 
 範例2
@@ -44,6 +45,7 @@ Two different roots x1=2 , x2=-5
 
 輸出:
 Two same roots x=0
+
 ```
 
 範例3
@@ -56,6 +58,7 @@ Two same roots x=0
 
 輸出:
 No real root
+
 ```
 
 ## 程式碼
