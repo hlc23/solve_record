@@ -59,7 +59,8 @@ for id in os.listdir("./zerojudge"):
 ---
 
 輸出:
-{zj.ex_output_list[t]}```
+{zj.ex_output_list[t]}
+```
 ''')
                 c += 1
             # 程式碼
