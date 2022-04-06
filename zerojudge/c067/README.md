@@ -38,7 +38,6 @@ The minimum number of moves is 5.
 
 Set #2
 The minimum number of moves is 0.
-
 ```
 
 ## 程式碼
