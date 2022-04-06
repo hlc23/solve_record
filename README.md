@@ -48,8 +48,8 @@
 - [d097: 10038 - Jolly Jumpers](https://zerojudge.tw/ShowProblem?problemid=d097)
 - [d669: 11677 - Alarm Clock](https://zerojudge.tw/ShowProblem?problemid=d669)
 
-## Replit
-https://replit.com/@henryleecode23/solverecord#.replit
+## [Replit](https://replit.com/@henryleecode23/solverecord#.replit)
+
 必須先於shell輸入
 
 ```
