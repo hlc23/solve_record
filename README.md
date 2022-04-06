@@ -7,6 +7,7 @@
 
 #### cpp
 
+- [a001: 哈囉](./expensive/a001/)
 - [a003: 兩光法師占卜術](./zerojudge/a003/)
 - [a005: Eva 的回家作業](./zerojudge/a005/)
 - [a006: 一元二次方程式](./zerojudge/a006/)
@@ -17,7 +18,7 @@
 - [d010: 盈數、虧數和完全數](./zerojudge/d010/)
 - [d051: 糟糕，我發燒了！](./zerojudge/d051/)
 - [d060: 還要等多久啊？](./zerojudge/d051/)
-- [d067: 格瑞哥里的煩惱 (1 行版)](./zerojudge/d051/)
+- [d067: 格瑞哥里的煩惱 (1 行版)](./zerojudge/d067/)
 - [d068: 該減肥了！](./zerojudge/d068/)
 - [d069: 格瑞哥里的煩惱 (t 行版)](./zerojudge/d069/)
 - [d070: 格瑞哥里的煩惱 (0 尾版)](./zerojudge/d070/)
