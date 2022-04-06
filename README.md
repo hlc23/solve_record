@@ -11,6 +11,7 @@
 - [a005: Eva 的回家作業](./zerojudge/a005/)
 - [a006: 一元二次方程式](./zerojudge/a006/)
 - [a058: MOD3](./zerojudge/a058/)
+- [a147: Print it all](./zerojudge/a147/)
 - [a148: You Cannot Pass?!](./zerojudge/a148/)
 - [c067: 00591 - Box of Bricks](./zerojudge/c067/)
 - [d010: 盈數、虧數和完全數](./zerojudge/d010/)
