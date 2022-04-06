@@ -31,21 +31,21 @@
 
 ```text
 輸入:
-4
-1992
-1993
-1900
-2000
-
+4
+1992
+1993
+1900
+2000
+
 
 ---
 
 輸出:
-a leap year
-a normal year
-a normal year
-a leap year
-
+a leap year
+a normal year
+a normal year
+a leap year
+
 ```
 
 ## 程式碼

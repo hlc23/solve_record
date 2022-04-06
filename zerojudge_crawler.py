@@ -85,3 +85,4 @@ class zj_crawler():
         for t in range(self.ex_test_case_quantity):
             test_case_list.append([self.ex_input_list[t], self.ex_output_list[t]])
         self.test_case_list = test_case_list
+
