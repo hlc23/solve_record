@@ -12,6 +12,7 @@
 - [a006: 一元二次方程式](./zerojudge/a006/)
 - [a058: MOD3](./zerojudge/a058/)
 - [a148: You Cannot Pass?!](./zerojudge/a148/)
+- [c067: 00591 - Box of Bricks](./zerojudge/c067/)
 - [d010: 盈數、虧數和完全數](./zerojudge/d010/)
 - [d051: 糟糕，我發燒了！](./zerojudge/d051/)
 - [d060: 還要等多久啊？](./zerojudge/d051/)
