@@ -47,3 +47,23 @@
 - [a121: 質數又來囉](https://zerojudge.tw/ShowProblem?problemid=a121)
 - [d097: 10038 - Jolly Jumpers](https://zerojudge.tw/ShowProblem?problemid=d097)
 - [d669: 11677 - Alarm Clock](https://zerojudge.tw/ShowProblem?problemid=d669)
+
+## Replit
+https://replit.com/@henryleecode23/solverecord#.replit
+必須先於shell輸入
+
+```
+pip install beautifulsoup4
+```
+
+運行md_writer.py
+
+```
+python3 md_writer.py
+```
+
+查詢zerojudge
+
+```
+python3 zj_pr.py
+```
