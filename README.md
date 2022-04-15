@@ -50,6 +50,8 @@
 - [a121: 質數又來囉](https://zerojudge.tw/ShowProblem?problemid=a121)
 - [d097: 10038 - Jolly Jumpers](https://zerojudge.tw/ShowProblem?problemid=d097)
 - [d669: 11677 - Alarm Clock](https://zerojudge.tw/ShowProblem?problemid=d669)
+- c013
+- e969
 
 ## [Replit](https://replit.com/@henryleecode23/solverecord#.replit)
 
