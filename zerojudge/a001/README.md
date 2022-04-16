@@ -24,12 +24,12 @@
 
 ```text
 輸入:
-world
+world
 
 ---
 
 輸出:
-hello, world
+hello, world
 
 ```
 

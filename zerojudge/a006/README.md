@@ -26,12 +26,12 @@ PS: 答案均為整數，若有兩個根則大者在前
 
 ```text
 輸入:
-1 3 -10
+1 3 -10
 
 ---
 
 輸出:
-Two different roots x1=2 , x2=-5
+Two different roots x1=2 , x2=-5
 
 ```
 
@@ -39,12 +39,12 @@ Two different roots x1=2 , x2=-5
 
 ```text
 輸入:
-1 0 0
+1 0 0
 
 ---
 
 輸出:
-Two same roots x=0
+Two same roots x=0
 
 ```
 

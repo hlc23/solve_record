@@ -25,18 +25,18 @@
 
 ```text
 輸入:
-6
-5 2 4 1 7 5
-3
-1 1 1
+6
+5 2 4 1 7 5
+3
+1 1 1
 0
 ---
 
 輸出:
-Set #1
-The minimum number of moves is 5.
-
-Set #2
+Set #1
+The minimum number of moves is 5.
+
+Set #2
 The minimum number of moves is 0.
 ```
 
@@ -79,6 +79,29 @@ int main() {
 
 ```
 
+py
+
+```py
+﻿Set = 1
+while True:
+    n = int(input())
+    if n == 0:
+        break
+    item = []
+    inp_text = input()
+    inp_text = inp_text.split(" ")
+    for t in range(n):
+        item.append(int(inp_text[t]))
+    avg = sum(item)/n
+    move = 0
+    for t in range(len(item)):
+        if item[t] > avg:
+            move += item[t] - avg
+    print(f"Set #{Set}")
+    print(f"The minimum number of moves is {int(move)}.\n")
+    Set += 1
+```
+
 ## 標籤
 - 陣列
 
@@ -86,6 +109,8 @@ int main() {
 ## 連結
 
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.cpp)
+
+- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.py)
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c067)
 

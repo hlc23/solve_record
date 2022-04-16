@@ -23,14 +23,14 @@
 
 ```text
 輸入:
-60
-
+60
+
 
 ---
 
 輸出:
-59
-
+59
+
 
 ```
 
@@ -57,10 +57,10 @@ cpp
 using namespace std;
 
 int main(int argc, char** argv) {
-	long long int w;
-	cin>>w;
-	cout<<w-(w>50);
-	return 0;
+    long long int w;
+    cin>>w;
+    cout<<w-(w>50);
+    return 0;
 }
 
 
