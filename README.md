@@ -1,7 +1,7 @@
 
 # 解題紀錄
 
-## zerojudge 
+## zerojudge
 
 ### 題目
 
