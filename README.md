@@ -34,16 +34,6 @@
 - [a006: 一元二次方程式](./zerojudge/a006/)
 - [d010: 盈數、虧數和完全數](./zerojudge/d010/)
 
-### 競賽
-
-#### VNt題目 C++ 第1卷
-
-- [c022: 10783 - Odd Sum](./zerojudge/c022/)
-- [d049: 中華民國萬歲！](./zerojudge/d049/)
-- [d051: 糟糕，我發燒了！](./zerojudge/d051/)
-- [c024: 10079 - Pizza Cutting](./zerojudge/c024/)
-- [d073: 分組報告](./zerojudge/d073/)
-
 ### 待解
 
 - [a034: 二進位制轉換](https://zerojudge.tw/ShowProblem?problemid=a034)
@@ -52,23 +42,3 @@
 - [d669: 11677 - Alarm Clock](https://zerojudge.tw/ShowProblem?problemid=d669)
 - c013
 - e969
-
-## [Replit](https://replit.com/@henryleecode23/solverecord#.replit)
-
-必須先於shell輸入
-
-```
-pip install beautifulsoup4
-```
-
-運行md_writer.py
-
-```
-python3 md_writer.py
-```
-
-查詢zerojudge
-
-```
-python3 zj_pr.py
-```

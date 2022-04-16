@@ -17,9 +17,6 @@ with open("error.txt",mode = "w",encoding="utf-8") as error:
     pass
 # 運行各個題目id
 for id in os.listdir("./zerojudge"):
-    # 略過 template.md
-    if id == "template.md":
-        continue
     # 顯示當前運作id
     print("running id :",id)
 
