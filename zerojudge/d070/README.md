@@ -13,6 +13,7 @@
 英格蘭和它的帝國 (包括美國) 一直到1752年才改用格瑞哥里曆，當年的9月2日的第二天為9月14日。(未同步採用新曆乃肇因於亨利八世和教宗的惡劣關係。)
 請依現行的曆法判斷所給的西元年份是平年還是閏年。
 
+
 ## 說明
 
 輸入:
@@ -26,10 +27,9 @@
 對於所輸入的每個 y，要各別輸出一行。若 y 是閏年，請於該行輸出「a leap year」，否則請輸出「a normal year」。
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 1992
 1993
@@ -46,9 +46,7 @@ a leap year
 
 
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -77,9 +75,7 @@ int main()
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d070/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d070
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d070/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d070)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

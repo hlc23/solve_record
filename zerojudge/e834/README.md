@@ -13,6 +13,7 @@ Y19m08a_p1_批發出貨(Wholesale)    2019年,08月,TOI, 新手同好會 {題
 子任務2 分數80  額外輸入限制:包含各種情況。
  
 
+
 ## 說明
 
 輸入:
@@ -28,10 +29,9 @@ Y19m08a_p1_批發出貨(Wholesale)    2019年,08月,TOI, 新手同好會 {題
  
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 10
 100 50 9 0
@@ -43,11 +43,9 @@ Y19m08a_p1_批發出貨(Wholesale)    2019年,08月,TOI, 新手同好會 {題
 5
 1
 
+```範例2
+
 ```
-
-範例2
-
-```text
 輸入:
 5
 22 9 100 73 0
@@ -61,9 +59,7 @@ Y19m08a_p1_批發出貨(Wholesale)    2019年,08月,TOI, 新手同好會 {題
 2
 
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -94,9 +90,7 @@ int main() {
 無
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/e834/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e834
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/e834/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e834)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

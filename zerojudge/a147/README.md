@@ -5,6 +5,7 @@
 
 大於 0、整數、不可以被 7 整除、小於 n，請輸出所有可能的數字。
 								
+
 ## 說明
 
 輸入:
@@ -18,10 +19,9 @@
 輸出如前述，各個數字之間以一個空白隔開。
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 5
 10
@@ -34,9 +34,7 @@
 1 2 3 4 5 6 8 9
 1 2 3 4 5 6 8 9 10 11 12 13 15 16 17 18 19
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -81,11 +79,7 @@ py
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.cpp)- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a147
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.cpp)
-
-- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.py)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a147)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

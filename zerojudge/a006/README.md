@@ -5,6 +5,7 @@
 
 求一元二次方程式 ax2+bx+c=0 的根
 
+
 ## 說明
 
 輸入:
@@ -21,10 +22,9 @@ No real root
 PS: 答案均為整數，若有兩個根則大者在前
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 1 3 -10
 
@@ -33,11 +33,9 @@ PS: 答案均為整數，若有兩個根則大者在前
 輸出:
 Two different roots x1=2 , x2=-5
 
+```範例2
+
 ```
-
-範例2
-
-```text
 輸入:
 1 0 0
 
@@ -46,11 +44,9 @@ Two different roots x1=2 , x2=-5
 輸出:
 Two same roots x=0
 
+```範例3
+
 ```
-
-範例3
-
-```text
 輸入:
 1 1 1
 
@@ -60,9 +56,7 @@ Two same roots x=0
 No real root
 
 ```
-
 ## 程式碼
-
 py
 
 ```py
@@ -96,9 +90,7 @@ else:
 
 
 ## 連結
+- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a006
 
-- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.py)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a006)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

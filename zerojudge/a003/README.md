@@ -9,6 +9,7 @@ M=月D=日 S=(M*2+D)%3
 得到 S 的值，再依照 S 的值從 0 到 2 分別給與 普通、吉、大吉 等三種不同的運勢
  
 
+
 ## 說明
 
 輸入:
@@ -22,10 +23,9 @@ M=月D=日 S=(M*2+D)%3
 運勢
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 1 1
 
@@ -34,11 +34,9 @@ M=月D=日 S=(M*2+D)%3
 輸出:
 普通
 
+```範例2
+
 ```
-
-範例2
-
-```text
 輸入:
 1 2
 
@@ -48,9 +46,7 @@ M=月D=日 S=(M*2+D)%3
 吉
 
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -79,9 +75,7 @@ int main(int argc, char** argv) {
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

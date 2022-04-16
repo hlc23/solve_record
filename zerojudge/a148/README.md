@@ -5,6 +5,7 @@
 
 你考了 n 科筆試題目，每科的滿分都是 100 分。老師說，如果平均大於 59 你就過關了。
 								
+
 ## 說明
 
 輸入:
@@ -18,10 +19,9 @@
 若你被當了，請輸出「yes」，否則輸出「no」。
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 1 60
 3 0 80 75
@@ -34,9 +34,7 @@ yes
 no
 
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -73,9 +71,7 @@ int main() {
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a148/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a148
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a148/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a148)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

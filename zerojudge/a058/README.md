@@ -5,6 +5,7 @@
 
 相信判斷一個數除以三的餘數是多少，對你來說應該沒有問題。那，如果一次請你判斷很多個數呢嘿嘿？給你n個數字，請你輸出3k、3k+1、3k+2的數各有幾個
 								
+
 ## 說明
 
 輸入:
@@ -18,10 +19,9 @@
 輸出三個數字(以空白隔開)，分別為n個數字中，三的倍數、三的倍數+1、三的倍數+2的數量
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 5
 1
@@ -35,9 +35,7 @@
 1 2 2
 
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -75,9 +73,7 @@ int main(){
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a058/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a058
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a058/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a058)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

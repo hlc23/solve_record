@@ -6,6 +6,7 @@
 給你一個長度為N的序列，請你由小到大排序後輸出在第一行
 接著除去掉重複的元素後由大到小輸出至第二行
 
+
 ## 說明
 
 輸入:
@@ -20,10 +21,9 @@
 
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 5
 2 2 1 3 4
@@ -33,15 +33,13 @@
 1 2 2 3 4
 4 3 2 1
 ```
-
 ## 程式碼
-
 ## 標籤
 
 無
 
 ## 連結
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c508
 
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c508)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

@@ -5,6 +5,7 @@
 
 鉛筆一支 5 元，一打 50 元。小明需要幫班上每位同學買一枝鉛筆，請問要多少錢？由於小明很注重環保，他絕不會為了省錢而多買任何不需要的東西。也就是說，小明買的鉛筆數量一定等於班上的人數。
 
+
 ## 說明
 
 輸入:
@@ -18,10 +19,9 @@
 請輸出一個數字，代表這次採購的金額。
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 42
 
@@ -30,11 +30,9 @@
 輸出:
 180
 
+```範例2
+
 ```
-
-範例2
-
-```text
 輸入:
 11
 
@@ -44,9 +42,7 @@
 55
 
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -69,9 +65,7 @@ int main(int argc, char** argv) {
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d827/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d827
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d827/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d827)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

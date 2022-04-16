@@ -6,6 +6,7 @@
 輸入任意數字，並將其數字全部倒轉
  
 
+
 ## 說明
 
 輸入:
@@ -19,10 +20,9 @@
 輸出翻轉過後的數字
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 12345
 
@@ -31,11 +31,9 @@
 輸出:
 54321
 
+```範例2
+
 ```
-
-範例2
-
-```text
 輸入:
 5050
 
@@ -45,9 +43,7 @@
 505
 
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -72,9 +68,7 @@ int main() {
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a038/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a038
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a038/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a038)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

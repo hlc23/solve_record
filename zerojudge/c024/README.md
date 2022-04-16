@@ -5,6 +5,7 @@
 
 Pizza大家都吃過吧！我個人是偏愛達美樂Pizza啦！現在問題來了：給你一塊Pizza，如果切一刀可以切成2塊，切2刀最多可切成4塊，切3刀最多可切成7塊（如下圖），那切N刀最多可以切成幾塊呢？ 
 
+
 ## 說明
 
 輸入:
@@ -18,10 +19,9 @@ Pizza大家都吃過吧！我個人是偏愛達美樂Pizza啦！現在問題來�
 對每一輸入N，輸出切N刀最多可以切成幾塊Pizza。
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 5
 10
@@ -32,9 +32,7 @@ Pizza大家都吃過吧！我個人是偏愛達美樂Pizza啦！現在問題來�
 16
 56
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -81,9 +79,7 @@ int main() {
 無
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c024/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c024
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c024/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c024)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

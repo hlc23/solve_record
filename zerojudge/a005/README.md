@@ -5,6 +5,7 @@
 
 　　Eva的家庭作業裏有很多數列填空練習。填空練習的要求是：已知數列的前四項，填出第五項。因 為已經知道這些數列只可能是等差或等比數列，她決定寫一個程式來完成這些練習。
 
+
 ## 說明
 
 輸入:
@@ -18,10 +19,9 @@
 對輸入的每個數列，輸出它的前五項。
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 2
 1 2 3 4
@@ -34,9 +34,7 @@
 1 2 4 8 16
 
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -69,9 +67,7 @@ int main() {
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a005/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a005
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a005/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a005)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

@@ -5,6 +5,7 @@
 
 在這個問題中，根據所給的振幅(Amplitude)及頻率(Frequency)，你的程式要產生這樣的波。
 								
+
 ## 說明
 
 輸入:
@@ -18,10 +19,9 @@
 每組測試資料請輸出F個波，每個波振幅的水平高度為A。波本身是以其"高度"的內容所組成。每個波之間以一空白行分隔開來。  測試資料間也以一空白行分開。  請參考sample output。
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 2
 
@@ -74,9 +74,7 @@
 22
 1
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -115,9 +113,7 @@ int main() {
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c013/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c013
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c013/main.cpp)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c013)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))

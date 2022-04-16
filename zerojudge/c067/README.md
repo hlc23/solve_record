@@ -7,6 +7,7 @@
  
  
 
+
 ## 說明
 
 輸入:
@@ -20,10 +21,9 @@
 對每一組輸入資料，首先輸出一行這是第幾組測試資料，下一行為"The minimum number of moves is k." k在這裡就是需搬動方塊最小的數目以使所有的方塊堆同一高度。每組測試資料後亦請空一行。請參考Sample Output. 
 
 ## 範例
-
 範例1
 
-```text
+```
 輸入:
 6
 5 2 4 1 7 5
@@ -39,9 +39,7 @@ The minimum number of moves is 5.
 Set #2
 The minimum number of moves is 0.
 ```
-
 ## 程式碼
-
 cpp
 
 ```cpp
@@ -107,11 +105,7 @@ while True:
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.cpp)- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c067
 
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.cpp)
-
-- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.py)
-
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c067)
-
-## [回首頁](https://henryleecode23.github.io/solve_record/)
+## [回首頁](https://henryleecode23.github.io/solve_record/
+))
