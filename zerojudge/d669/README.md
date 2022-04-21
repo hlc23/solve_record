@@ -37,20 +37,6 @@ Daniela 在一家大醫院當護士，工作時間常變來變去。更糟的是
 ## 程式碼
 cpp
 
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main(int argc, char** argv) {
-	long long int n;
-	cin>>n;
-	cout<<(n+2)/3;
-	return 0;
-}
-
-
-```
 
 在讀取main.cpp時編碼錯誤
 
@@ -93,4 +79,4 @@ main()
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.4.21 11點31分08秒
+此頁面最後編輯時間: 2022.4.21 11點37分21秒

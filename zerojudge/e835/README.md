@@ -69,28 +69,6 @@ Y19m08a_p2_表演座位 (Seats)    2019年,08月,TOI, 新手同好會  {題�
 ## 程式碼
 cpp
 
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    int base,item;
-    cin>>base;
-    while(cin>>item){
-        if (item == 0){
-            break;
-        }
-        else if (item % base == 0){
-            cout<<item / base <<endl;
-        }
-        else {
-            cout<<base - (item%base)<<endl;
-        }
-    }
-    return 0;
-}
-
-```
 
 在讀取main.cpp時編碼錯誤
 
@@ -106,4 +84,4 @@ int main() {
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.4.21 11點31分10秒
+此頁面最後編輯時間: 2022.4.21 11點37分23秒
