@@ -75,7 +75,7 @@ for id in zj_solved_id:
             # 各語言連結
             for l in serach_language(id):
                 md.write(f'''- GitHub: [{l}程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.{l})''')
-            md.write(f'''- 題目來源: [zerojudge]({zj.zj_url}\n\n## [回首頁](https://henryleecode23.github.io/solve_record/))''')
+            md.write(f'''\n- 題目來源: [zerojudge]({zj.zj_url}\n\n## [回首頁](https://henryleecode23.github.io/solve_record/))''')
         print(f"id:{id} finish")
 
     except UnicodeDecodeError: #編碼錯誤
@@ -96,13 +96,13 @@ with open("README.md",mode = "w",encoding="utf-8"):
     pass
 
 with open("README.md", mode="w",encoding="utf-8") as readme:
-    readme.write("# 解題紀錄\n\n## zerojudge\n\n### 題目\n\n")
+    readme.write("# 解題紀錄\n\n## zerojudge\n\n### 題目\n")
     if len(cpp_list) > 0:
-        readme.write("#### cpp\n\n")
+        readme.write("\n#### cpp\n\n")
         for text in cpp_list:
             readme.write(text+"\n")
     if len(py_list) > 0:
-        readme.write("#### py\n\n")
+        readme.write("\n#### py\n\n")
         for text in py_list:
             readme.write(text+"\n")
     if len(other_data['unsolve']) >0:
