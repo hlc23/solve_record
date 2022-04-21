@@ -1,6 +1,7 @@
 from zerojudge_crawler import zj_crawler
 import os
 import json
+import time
 
 def serach_language(id):
     '''
@@ -12,6 +13,35 @@ def serach_language(id):
         if f"main.{l}" in os.listdir(f"./zerojudge/{id}/"):
             run_language.append(l)
     return run_language
+
+def get_ymd(interval: str = ".") -> str:
+    '''
+    Input:
+        分隔號
+    Process:
+        獲取西元年月日
+    Output:
+        西元年月日
+        ex. 2022.3.17
+    '''
+    y = str(int(time.strftime("%Y", time.localtime())))
+    m = str(int(time.strftime("%m", time.localtime())))
+    d = str(int(time.strftime("%d", time.localtime())))
+    result = y+interval+m+interval+d
+    return result
+
+def get_time_with_word() -> str:
+    '''
+    Input:
+        None
+    Process:
+        獲取時間並格式化
+    Output:
+        輸出格式化時間
+        ex. 16:12:06
+    '''
+    result = time.strftime("%H點%M分%S秒", time.localtime())
+    return result
 
 # 重置error.txt
 with open("error.txt",mode = "w",encoding="utf-8") as error:
@@ -54,13 +84,20 @@ for id in zj_solved_id:
             md.write('''\n## 程式碼''')
             # 各語言程式碼
             for l in serach_language(id):
-                with open(f"./zerojudge/{id}/main.{l}",mode="r",encoding="utf-8") as file:
-                    code = file.read()
-                md.write(f'''\n{l}\n\n```{l}\n{code}\n```\n''')
                 if l == "cpp":
                     cpp_list.append(f"- [{zj.title}](./zerojudge/{id}/)")
                 if l == "py":
                     py_list.append(f"- [{zj.title}](./zerojudge/{id}/)")
+                try:
+                    with open(f"./zerojudge/{id}/main.{l}",mode="r",encoding="utf-8") as file:
+                        code = file.read()
+                    md.write(f'''\n{l}\n\n```{l}\n{code}\n```\n''')
+
+                except UnicodeDecodeError:
+                    md.write(f'''\n{l}\n\n```{l}\n{code}\n```\n''')
+                    md.write(f'''\n在讀取main.{l}時編碼錯誤\n''')
+                    with open("error.txt",mode="a",encoding="utf-8") as error:
+                        error.write(f"{id}: 編碼錯誤\n")
 
             # 標籤
             md.write('\n## 標籤\n')
@@ -74,17 +111,11 @@ for id in zj_solved_id:
             md.write('''\n\n## 連結\n''')
             # 各語言連結
             for l in serach_language(id):
-                md.write(f'''- GitHub: [{l}程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.{l})''')
-            md.write(f'''\n\n- 題目來源: [zerojudge]({zj.zj_url})\n\n## [回首頁](https://henryleecode23.github.io/solve_record/)''')
+                md.write(f'''- GitHub: [{l}程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.{l})\n''')
+            md.write(f'''\n\n- 題目來源: [zerojudge]({zj.zj_url})\n\n## [回首頁](https://henryleecode23.github.io/solve_record/)\n\n''')
+            md.write(f'''此頁面最後編輯時間: {get_ymd()} {get_time_with_word()}\n''')
         print(f"id:{id} finish")
 
-    except UnicodeDecodeError: #編碼錯誤
-        print("Encoding error")
-        with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
-            md.write(f'''# 錯誤\n\n## 作者太弱了,程式在生成這一頁時發生了編碼錯誤\n\n## 歡迎各路大佬指教\n\n# 題目來源: [{zj.title}]({zj.zj_url})\n\n# [回首頁](https://henryleecode23.github.io/solve_record/)''')
-        with open("error.txt",mode="a",encoding="utf-8") as error:
-            error.write(f"{id}: 編碼錯誤\n")
-    
     except: #未知錯誤
         print("Unknow error")
         with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
@@ -111,3 +142,4 @@ with open("README.md", mode="w",encoding="utf-8") as readme:
             zj = zj_crawler(id)
             readme.write(f"- [{zj.title}]({zj.zj_url})\n")
     readme.write('''\n## 作者的話:\n\n這個網站是使用Github page及自己寫的腳本和爬蟲所完成，目的是想記錄自己解題~~也許還能順便當學習歷程~~，我認為在許多細節還有許多地方可以改進，以及程式能有更好的寫法，如果有什麼建議想要提供，或是我的程式有哪些地方有Bug想要告訴我，歡迎到這個專案的[Github頁面](https://henryleecode23.github.io/solve_record/)發issues或是透過電子郵件聯絡我\n\nGmail: henry.lee.code23@gmail.com''')
+    readme.write(f'''\n\n\n\n最後更新時間: {get_ymd()} {get_time_with_word()}\n''')
