@@ -48,7 +48,7 @@ for id in zj_solved_id:
             # 範例
             c = 1
             for t in range(zj.ex_test_case_quantity):
-                md.write(f'''範例{c}\n\n```\n輸入:\n{zj.ex_input_list[t]}\n---\n\n輸出:\n{zj.ex_output_list[t]}\n```''')
+                md.write(f'''範例{c}\n\n```\n輸入:\n{zj.ex_input_list[t]}\n---\n\n輸出:\n{zj.ex_output_list[t]}\n```\n''')
                 c += 1
             # 程式碼
             md.write('''\n## 程式碼''')
