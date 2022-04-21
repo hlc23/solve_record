@@ -1,4 +1,3 @@
-
 # a147:Print it all
 
 ## 敘述
@@ -23,15 +22,15 @@
 
 ```
 輸入:
-5
-10
-20
+5
+10
+20
 0
 ---
 
 輸出:
-1 2 3 4
-1 2 3 4 5 6 8 9
+1 2 3 4
+1 2 3 4 5 6 8 9
 1 2 3 4 5 6 8 9 10 11 12 13 15 16 17 18 19
 ```
 ## 程式碼
@@ -81,5 +80,4 @@ py
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.cpp)- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a147
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

@@ -1,4 +1,3 @@
-
 # e834:P1.批發出貨(Wholesale)
 
 ## 敘述
@@ -33,30 +32,30 @@ Y19m08a_p1_批發出貨(Wholesale)    2019年,08月,TOI, 新手同好會 {題
 
 ```
 輸入:
-10
-100 50 9 0
+10
+100 50 9 0
 
 ---
 
 輸出:
-10
-5
-1
+10
+5
+1
 
 ```範例2
 
 ```
 輸入:
-5
-22 9 100 73 0
+5
+22 9 100 73 0
 
 ---
 
 輸出:
-3
-1
-20
-2
+3
+1
+20
+2
 
 ```
 ## 程式碼
@@ -92,5 +91,4 @@ int main() {
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/e834/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e834
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

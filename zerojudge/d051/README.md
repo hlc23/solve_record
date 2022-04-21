@@ -1,4 +1,3 @@
-
 # d051:糟糕，我發燒了！
 
 ## 敘述
@@ -55,5 +54,4 @@ int main(int argc, char** argv) {
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d051/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d051
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

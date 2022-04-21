@@ -1,4 +1,3 @@
-
 # a005:Eva 的回家作業
 
 ## 敘述
@@ -23,15 +22,15 @@
 
 ```
 輸入:
-2
-1 2 3 4
-1 2 4 8
+2
+1 2 3 4
+1 2 4 8
 
 ---
 
 輸出:
-1 2 3 4 5
-1 2 4 8 16
+1 2 3 4 5
+1 2 4 8 16
 
 ```
 ## 程式碼
@@ -69,5 +68,4 @@ int main() {
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a005/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a005
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

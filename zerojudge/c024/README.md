@@ -1,4 +1,3 @@
-
 # c024:10079 - Pizza Cutting
 
 ## 敘述
@@ -23,13 +22,13 @@ Pizza大家都吃過吧！我個人是偏愛達美樂Pizza啦！現在問題來�
 
 ```
 輸入:
-5
-10
+5
+10
 -100
 ---
 
 輸出:
-16
+16
 56
 ```
 ## 程式碼
@@ -81,5 +80,4 @@ int main() {
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c024/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c024
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

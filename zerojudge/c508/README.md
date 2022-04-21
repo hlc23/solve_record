@@ -1,4 +1,3 @@
-
 # c508:去蟲
 
 ## 敘述
@@ -25,12 +24,12 @@
 
 ```
 輸入:
-5
+5
 2 2 1 3 4
 ---
 
 輸出:
-1 2 2 3 4
+1 2 2 3 4
 4 3 2 1
 ```
 ## 程式碼
@@ -41,5 +40,4 @@
 ## 連結
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c508
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

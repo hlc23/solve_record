@@ -1,4 +1,3 @@
-
 # c067:00591 - Box of Bricks
 
 ## 敘述
@@ -25,18 +24,18 @@
 
 ```
 輸入:
-6
-5 2 4 1 7 5
-3
-1 1 1
+6
+5 2 4 1 7 5
+3
+1 1 1
 0
 ---
 
 輸出:
-Set #1
-The minimum number of moves is 5.
-
-Set #2
+Set #1
+The minimum number of moves is 5.
+
+Set #2
 The minimum number of moves is 0.
 ```
 ## 程式碼
@@ -107,5 +106,4 @@ while True:
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.cpp)- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c067
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

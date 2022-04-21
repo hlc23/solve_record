@@ -1,4 +1,3 @@
-
 # d068:該減肥了！
 
 ## 敘述
@@ -23,14 +22,14 @@
 
 ```
 輸入:
-60
-
+60
+
 
 ---
 
 輸出:
-59
-
+59
+
 
 ```範例2
 
@@ -70,5 +69,4 @@ int main(int argc, char** argv) {
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d068/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d068
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

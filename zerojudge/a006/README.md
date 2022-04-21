@@ -1,4 +1,3 @@
-
 # a006:一元二次方程式
 
 ## 敘述
@@ -26,23 +25,23 @@ PS: 答案均為整數，若有兩個根則大者在前
 
 ```
 輸入:
-1 3 -10
+1 3 -10
 
 ---
 
 輸出:
-Two different roots x1=2 , x2=-5
+Two different roots x1=2 , x2=-5
 
 ```範例2
 
 ```
 輸入:
-1 0 0
+1 0 0
 
 ---
 
 輸出:
-Two same roots x=0
+Two same roots x=0
 
 ```範例3
 
@@ -92,5 +91,4 @@ else:
 ## 連結
 - GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a006
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

@@ -1,4 +1,3 @@
-
 # c022:10783 - Odd Sum
 
 ## 敘述
@@ -23,15 +22,15 @@
 
 ```
 輸入:
-2
-1
-5
-3
+2
+1
+5
+3
 5
 ---
 
 輸出:
-Case 1: 9
+Case 1: 9
 Case 2: 8
 ```
 ## 程式碼
@@ -66,5 +65,4 @@ int main() {
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c022/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c022
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

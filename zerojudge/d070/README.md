@@ -1,4 +1,3 @@
-
 # d070:格瑞哥里的煩惱 (0 尾版)
 
 ## 敘述
@@ -31,19 +30,19 @@
 
 ```
 輸入:
-1992
-1993
-1900
-2000
+1992
+1993
+1900
+2000
 0
 ---
 
 輸出:
-a leap year
-a normal year
-a normal year
-a leap year
-
+a leap year
+a normal year
+a normal year
+a leap year
+
 
 ```
 ## 程式碼
@@ -77,5 +76,4 @@ int main()
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d070/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d070
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

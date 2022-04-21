@@ -1,4 +1,3 @@
-
 # a038:數字翻轉
 
 ## 敘述
@@ -24,12 +23,12 @@
 
 ```
 輸入:
-12345
+12345
 
 ---
 
 輸出:
-54321
+54321
 
 ```範例2
 
@@ -70,5 +69,4 @@ int main() {
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a038/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a038
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

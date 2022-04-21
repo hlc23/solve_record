@@ -1,4 +1,3 @@
-
 # a148:You Cannot Pass?!
 
 ## 敘述
@@ -23,15 +22,15 @@
 
 ```
 輸入:
-1 60
-3 0 80 75
+1 60
+3 0 80 75
 5 61 61 61 61 55
 ---
 
 輸出:
-no
-yes
-no
+no
+yes
+no
 
 ```
 ## 程式碼
@@ -73,5 +72,4 @@ int main() {
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a148/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a148
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))

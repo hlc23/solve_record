@@ -1,4 +1,3 @@
-
 # d073:分組報告
 
 ## 敘述
@@ -67,5 +66,4 @@ int main(int argc, char** argv) {
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d073/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d073
 
-## [回首頁](https://henryleecode23.github.io/solve_record/
-))
+## [回首頁](https://henryleecode23.github.io/solve_record/))
