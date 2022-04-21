@@ -94,7 +94,7 @@ for id in zj_solved_id:
                     md.write(f'''\n{l}\n\n```{l}\n{code}\n```\n''')
 
                 except UnicodeDecodeError:
-                    md.write(f'''\n{l}\n\n```{l}\n{code}\n```\n''')
+                    md.write(f'''\n{l}\n\n''')
                     md.write(f'''\n在讀取main.{l}時編碼錯誤\n''')
                     with open("error.txt",mode="a",encoding="utf-8") as error:
                         error.write(f"{id}: 編碼錯誤\n")
