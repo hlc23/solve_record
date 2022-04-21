@@ -32,7 +32,8 @@ PS: 答案均為整數，若有兩個根則大者在前
 輸出:
 Two different roots x1=2 , x2=-5
 
-```範例2
+```
+範例2
 
 ```
 輸入:
@@ -43,7 +44,8 @@ Two different roots x1=2 , x2=-5
 輸出:
 Two same roots x=0
 
-```範例3
+```
+範例3
 
 ```
 輸入:
@@ -55,6 +57,7 @@ Two same roots x=0
 No real root
 
 ```
+
 ## 程式碼
 py
 
@@ -89,6 +92,11 @@ else:
 
 
 ## 連結
-- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a006
+- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.py)
 
-## [回首頁](https://henryleecode23.github.io/solve_record/))
+
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a006)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+此頁面最後編輯時間: 2022.4.21 11點30分54秒

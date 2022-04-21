@@ -45,6 +45,7 @@ a leap year
 
 
 ```
+
 ## 程式碼
 cpp
 
@@ -74,6 +75,11 @@ int main()
 
 
 ## 連結
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d070/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d070
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/d070/main.cpp)
 
-## [回首頁](https://henryleecode23.github.io/solve_record/))
+
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=d070)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+此頁面最後編輯時間: 2022.4.21 11點31分06秒

@@ -32,12 +32,17 @@
 1 2 2 3 4
 4 3 2 1
 ```
+
 ## 程式碼
 ## 標籤
 
 無
 
 ## 連結
-- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c508
 
-## [回首頁](https://henryleecode23.github.io/solve_record/))
+
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c508)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+此頁面最後編輯時間: 2022.4.21 11點31分01秒

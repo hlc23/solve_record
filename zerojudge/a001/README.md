@@ -30,7 +30,8 @@ world
 輸出:
 hello, world
 
-```範例2
+```
+範例2
 
 ```
 輸入:
@@ -41,7 +42,8 @@ C++
 輸出:
 hello, C++
 
-```範例3
+```
+範例3
 
 ```
 輸入:
@@ -53,6 +55,7 @@ Taiwan
 hello, Taiwan
 
 ```
+
 ## 程式碼
 py
 
@@ -67,6 +70,11 @@ print("hello,",inp_text)
 
 
 ## 連結
-- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a001/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a001
+- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a001/main.py)
 
-## [回首頁](https://henryleecode23.github.io/solve_record/))
+
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a001)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+此頁面最後編輯時間: 2022.4.21 11點30分51秒

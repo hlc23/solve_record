@@ -33,6 +33,7 @@
 1 2 3 4 5 6 8 9
 1 2 3 4 5 6 8 9 10 11 12 13 15 16 17 18 19
 ```
+
 ## 程式碼
 cpp
 
@@ -78,6 +79,12 @@ py
 
 
 ## 連結
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.cpp)- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a147
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.cpp)
+- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a147/main.py)
 
-## [回首頁](https://henryleecode23.github.io/solve_record/))
+
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a147)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+此頁面最後編輯時間: 2022.4.21 11點30分56秒

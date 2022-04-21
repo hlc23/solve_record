@@ -42,7 +42,8 @@ Y19m08a_p1_批發出貨(Wholesale)    2019年,08月,TOI, 新手同好會 {題
 5
 1
 
-```範例2
+```
+範例2
 
 ```
 輸入:
@@ -58,6 +59,7 @@ Y19m08a_p1_批發出貨(Wholesale)    2019年,08月,TOI, 新手同好會 {題
 2
 
 ```
+
 ## 程式碼
 cpp
 
@@ -89,6 +91,11 @@ int main() {
 無
 
 ## 連結
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/e834/main.cpp)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e834
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/e834/main.cpp)
 
-## [回首頁](https://henryleecode23.github.io/solve_record/))
+
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e834)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+此頁面最後編輯時間: 2022.4.21 11點31分09秒

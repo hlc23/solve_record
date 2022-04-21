@@ -1,9 +1,109 @@
-# 錯誤
+# e835:p2.表演座位 (Seats)
 
-## 作者太弱了,程式在生成這一頁時發生了編碼錯誤
+## 敘述
 
-## 歡迎各路大佬指教
+Y19m08a_p2_表演座位 (Seats)    2019年,08月,TOI, 新手同好會  {題目連結}
+ 
+問題敘述
+臺灣舞團 MANIAC Family 憑著融合原住民文化及功夫元素於舞蹈中，成功晉級《亞洲達 人秀》準決賽，驚豔亞洲！由於總決賽表演的座位非常多，共有 10,000 席座位，因此需製作 一個系統：給定座位編號 (1~10,000) 後，能找出座位區域、排數、每排第幾位（從 1 開始， 由左至右）。 表演分為三大區，每區共有 100 排：一、三大區為普通區各有 2,500 席，每排各有 25 人。 第二大區為搖滾區有 5,000 席，每排各有 50 人。編號按照大區順序，由第一區開始由左至右、 由前至後，再接續第二、三大區。
+ 
+ 
+評分說明 本題共有兩組測試題組，條件限制如下所示。每一組可有一或多筆測試資料，該組所有 測試資料皆需答對才會獲得該組分數。
+子任務1 分數20 額外輸入限制:第一、三區編號皆為 25 的倍數，第二區編號為 50 的倍數。
+子任務2 分數80額外輸入限制:編號不限制。
+ 
 
-# 題目來源: [e835:p2.表演座位 (Seats)](https://zerojudge.tw/ShowProblem?problemid=e835)
 
-# [回首頁](https://henryleecode23.github.io/solve_record/)
+## 說明
+
+輸入:
+
+輸入一個正整數 N (1<=N<=10,000)，代表演出入場卷的座位編號。
+ 
+
+---
+
+輸出:
+
+對於每筆測資輸出三個正整數，分別代表編號隸屬座位區、排數、每排位數。彼此間以 空白間隔。
+ 
+
+## 範例
+範例1
+
+```
+輸入:
+26
+
+---
+
+輸出:
+1 2 1
+
+```
+範例2
+
+```
+輸入:
+7499
+
+---
+
+輸出:
+2 100 49
+
+```
+範例3
+
+```
+輸入:
+8765
+
+---
+
+輸出:
+3 51 15
+
+```
+
+## 程式碼
+cpp
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int base,item;
+    cin>>base;
+    while(cin>>item){
+        if (item == 0){
+            break;
+        }
+        else if (item % base == 0){
+            cout<<item / base <<endl;
+        }
+        else {
+            cout<<base - (item%base)<<endl;
+        }
+    }
+    return 0;
+}
+
+```
+
+在讀取main.cpp時編碼錯誤
+
+## 標籤
+
+無
+
+## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/e835/main.cpp)
+
+
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=e835)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+此頁面最後編輯時間: 2022.4.21 11點31分10秒

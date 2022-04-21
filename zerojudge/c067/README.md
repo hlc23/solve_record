@@ -38,6 +38,7 @@ The minimum number of moves is 5.
 Set #2
 The minimum number of moves is 0.
 ```
+
 ## 程式碼
 cpp
 
@@ -104,6 +105,12 @@ while True:
 
 
 ## 連結
-- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.cpp)- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.py)- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c067
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.cpp)
+- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c067/main.py)
 
-## [回首頁](https://henryleecode23.github.io/solve_record/))
+
+- 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c067)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+此頁面最後編輯時間: 2022.4.21 11點31分00秒
