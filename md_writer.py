@@ -1,5 +1,6 @@
 from zerojudge_crawler import zj_crawler
 import os
+import json
 
 def serach_language(id):
     '''
@@ -15,8 +16,27 @@ def serach_language(id):
 # 重置error.txt
 with open("error.txt",mode = "w",encoding="utf-8") as error:
     pass
+
+zj_solved_id = sorted(os.listdir("./zerojudge"))
+
+with open("other.json",mode="r",encoding="utf-8") as other:
+    other_data = json.load(other)
+
+other_data['unsolve'] = sorted(other_data['unsolve'])
+
+for id in other_data['unsolve']:
+    if id in zj_solved_id:
+        other_data['unsolve'].remove(id)
+
+with open("other.json",mode="w",encoding="utf-8") as new_other:
+    json.dump(other_data, new_other,indent=4,ensure_ascii=False)
+
+
+cpp_list = []
+py_list = []
+
 # 運行各個題目id
-for id in os.listdir("./zerojudge"):
+for id in zj_solved_id:
     # 顯示當前運作id
     print("running id :",id)
 
@@ -37,6 +57,10 @@ for id in os.listdir("./zerojudge"):
                 with open(f"./zerojudge/{id}/main.{l}",mode="r",encoding="utf-8") as file:
                     code = file.read()
                 md.write(f'''\n{l}\n\n```{l}\n{code}\n```\n''')
+                if l == "cpp":
+                    cpp_list.append(f"- [{zj.title}](./zerojudge/{id}/)")
+                if l == "py":
+                    py_list.append(f"- [{zj.title}](./zerojudge/{id}/)")
 
             # 標籤
             md.write('\n## 標籤\n')
@@ -51,16 +75,39 @@ for id in os.listdir("./zerojudge"):
             # 各語言連結
             for l in serach_language(id):
                 md.write(f'''- GitHub: [{l}程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.{l})''')
-            md.write(f'''- 題目來源: [zerojudge]({zj.zj_url}\n\n## [回首頁](https://henryleecode23.github.io/solve_record/\n))''')
-    
+            md.write(f'''- 題目來源: [zerojudge]({zj.zj_url}\n\n## [回首頁](https://henryleecode23.github.io/solve_record/))''')
+        print(f"id:{id} finish")
+
     except UnicodeDecodeError: #編碼錯誤
+        print("Encoding error")
         with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
             md.write(f'''# 錯誤\n\n## 作者太弱了,程式在生成這一頁時發生了編碼錯誤\n\n## 歡迎各路大佬指教\n\n# 題目來源: [{zj.title}]({zj.zj_url})\n\n# [回首頁](https://henryleecode23.github.io/solve_record/)''')
         with open("error.txt",mode="a",encoding="utf-8") as error:
             error.write(f"{id}: 編碼錯誤\n")
     
     except: #未知錯誤
+        print("Unknow error")
         with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
             md.write('''# 錯誤\n\n# 作者太弱了,程式在生成這一頁時發生了未知錯誤\n\n## 歡迎各路大佬指教\n\n# 題目來源: [{zj.title}]({zj.zj_url})\n\n# [回首頁](https://henryleecode23.github.io/solve_record/)''')
         with open("error.txt",mode="a",encoding="utf-8") as error:
             error.write(f"{id}: 未知錯誤\n")
+
+with open("README.md",mode = "w",encoding="utf-8"):
+    pass
+
+with open("README.md", mode="w",encoding="utf-8") as readme:
+    readme.write("# 解題紀錄\n\n## zerojudge\n\n### 題目\n\n")
+    if len(cpp_list) > 0:
+        readme.write("#### cpp\n\n")
+        for text in cpp_list:
+            readme.write(text+"\n")
+    if len(py_list) > 0:
+        readme.write("#### py\n\n")
+        for text in py_list:
+            readme.write(text+"\n")
+    if len(other_data['unsolve']) >0:
+        readme.write("\n### 待解\n\n")
+        for id in other_data["unsolve"]:
+            zj = zj_crawler(id)
+            readme.write(f"- [{zj.title}]({zj.zj_url})\n")
+    readme.write('''\n## 作者的話:\n\n這個網站是使用Github page及自己寫的腳本和爬蟲所完成，目的是想記錄自己解題~~也許還能順便當學習歷程~~，我認為在許多細節還有許多地方可以改進，以及程式能有更好的寫法，如果有什麼建議想要提供，或是我的程式有哪些地方有Bug想要告訴我，歡迎到這個專案的[Github頁面](https://henryleecode23.github.io/solve_record/)發issues或是透過電子郵件聯絡我\n\nGmail: henry.lee.code23@gmail.com''')
