@@ -75,7 +75,7 @@ for id in zj_solved_id:
             # 各語言連結
             for l in serach_language(id):
                 md.write(f'''- GitHub: [{l}程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.{l})''')
-            md.write(f'''\n\n- 題目來源: [zerojudge]({zj.zj_url}\n\n## [回首頁](https://henryleecode23.github.io/solve_record/)''')
+            md.write(f'''\n\n- 題目來源: [zerojudge]({zj.zj_url})\n\n## [回首頁](https://henryleecode23.github.io/solve_record/)''')
         print(f"id:{id} finish")
 
     except UnicodeDecodeError: #編碼錯誤
