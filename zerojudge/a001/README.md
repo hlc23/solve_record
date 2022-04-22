@@ -77,4 +77,4 @@ print("hello,",inp_text)
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.4.23 00點03分42秒
+此頁面最後編輯時間: 2022.4.23 00點30分46秒

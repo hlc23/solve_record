@@ -49,15 +49,15 @@
 
 ## NHDK Ten Point Round
 
-### TPR#17
+### TPR17
 
-[A.Pool](./NHDK/TPR#17/A.Pool/)
+[A](./NHDK/TPR17/A/)
 
-### TPR#18
+### TPR18
 
-[A.加法與減法(Addition_and_Subtraction)](./NHDK/TPR#18/A.加法與減法(Addition_and_Subtraction)/)
+[A](./NHDK/TPR18/A/)
 
-[C.海龍公式(Heron's_formula)](./NHDK/TPR#18/C.海龍公式(Heron's_formula)/)
+[C](./NHDK/TPR18/C/)
 
 
 ## 作者的話:
@@ -68,4 +68,4 @@ Gmail: henry.lee.code23@gmail.com
 
 
 
-最後更新時間: 2022.4.23 00點04分11秒
+最後更新時間: 2022.4.23 00點30分57秒
