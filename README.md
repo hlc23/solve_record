@@ -33,6 +33,7 @@
 
 - [a001:哈囉](./zerojudge/a001/)
 - [a006:一元二次方程式](./zerojudge/a006/)
+- [a024:最大公因數(GCD)](./zerojudge/a024/)
 - [a147:Print it all](./zerojudge/a147/)
 - [c067:00591 - Box of Bricks](./zerojudge/c067/)
 - [d010:盈數、虧數和完全數](./zerojudge/d010/)
@@ -54,4 +55,4 @@ Gmail: henry.lee.code23@gmail.com
 
 
 
-最後更新時間: 2022.4.21 12點22分00秒
+最後更新時間: 2022.4.22 07點55分12秒
