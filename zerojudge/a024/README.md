@@ -22,7 +22,7 @@
 
 ```
 輸入:
-12 15
+12 15
 
 ---
 
@@ -74,4 +74,4 @@ print(GCD(int(inp_text[0]),int(inp_text[1])))
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.4.22 07點54分51秒
+此頁面最後編輯時間: 2022.4.22 19點50分19秒
