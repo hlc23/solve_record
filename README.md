@@ -46,6 +46,19 @@
 - [d123:11063 - B2-Sequence](https://zerojudge.tw/ShowProblem?problemid=d123)
 - [e969:3. 大吃大喝 (Big eater)](https://zerojudge.tw/ShowProblem?problemid=e969)
 
+## NHDK Ten Point Round
+
+### TPR17
+
+[A.Pool](./NHDK/TPR17/A.Pool/)
+
+### TPR18
+
+[A.加法與減法(Addition_and_Subtraction)](./NHDK/TPR18/A.加法與減法(Addition_and_Subtraction)/)
+
+[C.海龍公式(Heron's_formula)](./NHDK/TPR18/C.海龍公式(Heron's_formula)/)
+
+
 ## 作者的話:
 
 這個網站是使用Github page及自己寫的腳本和爬蟲所完成，目的是想記錄自己解題~~也許還能順便當學習歷程~~，我認為在許多細節還有許多地方可以改進，以及程式能有更好的寫法，如果有什麼建議想要提供，或是我的程式有哪些地方有Bug想要告訴我，歡迎到這個專案的[Github頁面](https://henryleecode23.github.io/solve_record/)發issues或是透過電子郵件聯絡我
@@ -54,4 +67,4 @@ Gmail: henry.lee.code23@gmail.com
 
 
 
-最後更新時間: 2022.4.21 12點22分00秒
+最後更新時間: 2022.4.23 14點41分11秒
