@@ -1,4 +1,4 @@
-# C. 海龍公式 (Heron's formula)
+# C. 海龍公式(Heron's formula)
 
 ![敘述](https://i.imgur.com/htmMkSp.png)
 
@@ -21,3 +21,7 @@ print(int(A))
 ```
 
 ### [官方解](https://youtu.be/tsBYXXV5Pgs?t=319)
+
+## [回首頁](https://henryleecode23.github.io/solve_record/)
+
+此頁面最後編輯時間: 2022.4.23 15點42分

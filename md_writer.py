@@ -40,7 +40,7 @@ def get_time_with_word() -> str:
         輸出格式化時間
         ex. 16:12:06
     '''
-    result = time.strftime("%H點%M分%S秒", time.localtime())
+    result = time.strftime("%H點%M分", time.localtime())
     return result
 
 # 重置error.txt
