@@ -54,9 +54,9 @@
 
 ### TPR18
 
-[A.加法與減法(Addition_and_Subtraction)](./NHDK/TPR18/A.加法與減法(Addition_and_Subtraction)/)
+[A.加法與減法 (Addition and Subtraction)](./NHDK/TPR18/A.加法與減法 (Addition and Subtraction)/)
 
-[C.海龍公式(Heron's_formula)](./NHDK/TPR18/C.海龍公式(Heron's_formula)/)
+[C.海龍公式(Heron's formula)](./NHDK/TPR18/C.海龍公式(Heron's formula)/)
 
 
 ## 作者的話:
@@ -67,4 +67,4 @@ Gmail: henry.lee.code23@gmail.com
 
 
 
-最後更新時間: 2022.4.23 14點41分11秒
+最後更新時間: 2022.4.23 15點57分
