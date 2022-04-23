@@ -54,7 +54,7 @@
 
 ### TPR18
 
-[A.加法與減法(Addition_and_Subtraction)](./NHDK/TPR18/A.加法與減法(Addition_and_Subtraction)/)
+[A.加法與減法(Addition_and_Subtraction)](./NHDK/TPR18/A.加法與減法(Addition and Subtraction)/)
 
 [C.海龍公式(Heron's_formula)](./NHDK/TPR18/C.海龍公式(Heron's_formula)/)
 
