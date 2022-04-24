@@ -47,8 +47,10 @@ def get_time_with_word() -> str:
 with open("error.txt",mode = "w",encoding="utf-8") as error:
     pass
 
+# 取得所有id
 zj_solved_id = sorted(os.listdir("./zerojudge"))
 
+# 讀取info.json並修改zj_solved_id
 with open("other.json",mode="r",encoding="utf-8") as other:
     other_data = json.load(other)
 
