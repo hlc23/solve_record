@@ -51,17 +51,17 @@ with open("error.txt",mode = "w",encoding="utf-8") as error:
 zj_solved_id = sorted(os.listdir("./zerojudge"))
 
 # 讀取info.json並修改zj_solved_id
-with open("other.json",mode="r",encoding="utf-8") as other:
-    other_data = json.load(other)
+with open("info.json",mode="r",encoding="utf-8") as info:
+    info_data = json.load(info)
 
-other_data['unsolve'] = sorted(other_data['unsolve'])
+info_data['unsolve'] = sorted(info_data['unsolve'])
 
-for id in other_data['unsolve']:
+for id in info_data['unsolve']:
     if id in zj_solved_id:
-        other_data['unsolve'].remove(id)
+        info_data['unsolve'].remove(id)
 
-with open("other.json",mode="w",encoding="utf-8") as new_other:
-    json.dump(other_data, new_other,indent=4,ensure_ascii=False)
+with open("info.json",mode="w",encoding="utf-8") as new_info:
+    json.dump(info_data, new_info,indent=4,ensure_ascii=False)
 
 
 cpp_list = []
@@ -139,9 +139,9 @@ with open("README.md", mode="w",encoding="utf-8") as readme:
         readme.write("\n#### py\n\n")
         for text in py_list:
             readme.write(text+"\n")
-    if len(other_data['unsolve']) >0:
+    if len(info_data['unsolve']) >0:
         readme.write("\n### 待解\n\n")
-        for id in other_data["unsolve"]:
+        for id in info_data["unsolve"]:
             zj = zj_crawler(id)
             readme.write(f"- [{zj.title}]({zj.zj_url})\n")
     # NHDK
@@ -154,5 +154,5 @@ with open("README.md", mode="w",encoding="utf-8") as readme:
     with open("extra.md",mode="r",encoding="utf-8") as extra:
         readme.write(extra.read())
     readme.write('''\n## 作者的話:\n\n這個網站是使用Github page及自己寫的腳本和爬蟲所完成，目的是想記錄自己解題~~也許還能順便當學習歷程~~，我認為在許多細節還有許多地方可以改進，以及程式能有更好的寫法，如果有什麼建議想要提供，或是我的程式有哪些地方有Bug想要告訴我，歡迎到這個專案的[Github頁面](https://henryleecode23.github.io/solve_record/)發issues或是透過電子郵件聯絡我\n\nGmail: henry.lee.code23@gmail.com''')
-    readme.write(f'''\n\n\n\n最後更新時間: {get_ymd()} {get_time_with_word()}\n''')
+    readme.write(f'''\n\n\n\n最後更新時間: {get_ymd()} {get_time_with_word()}\n\n\n''')
     readme.write('''最後更新時間可能因程式運行裝置不同而有所變化''')
