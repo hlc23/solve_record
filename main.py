@@ -121,7 +121,7 @@ for id in zj_solved_id:
     except: #未知錯誤
         print("Unknow error")
         with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
-            md.write('''# 錯誤\n\n# 作者太弱了,程式在生成這一頁時發生了未知錯誤\n\n## 歡迎各路大佬指教\n\n# 題目來源: [{zj.title}]({zj.zj_url})\n\n# [回首頁](https://henryleecode23.github.io/solve_record/)''')
+            md.write(f'''# 錯誤\n\n# 作者太弱了,程式在生成這一頁時發生了未知錯誤\n\n## 歡迎各路大佬指教\n\n# 題目來源: [{zj.title}]({zj.zj_url})\n\n# [回首頁](https://henryleecode23.github.io/solve_record/)''')
         with open("error.txt",mode="a",encoding="utf-8") as error:
             error.write(f"{id}: 未知錯誤\n")
 

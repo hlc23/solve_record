@@ -30,19 +30,19 @@
 
 ```
 輸入:
-1992
-1993
-1900
-2000
+1992
+1993
+1900
+2000
 0
 ---
 
 輸出:
-a leap year
-a normal year
-a normal year
-a leap year
-
+a leap year
+a normal year
+a normal year
+a leap year
+
 
 ```
 
@@ -82,4 +82,4 @@ int main()
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.4.24 13點50分
+此頁面最後編輯時間: 2022.4.27 02點40分
