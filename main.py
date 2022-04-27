@@ -60,6 +60,10 @@ for id in info_data['unsolve']:
     if id in zj_solved_id:
         info_data['unsolve'].remove(id)
 
+for id in info_data['solving']:
+    if id in zj_solved_id:
+      zj_solved_id.remove(id)
+
 with open("info.json",mode="w",encoding="utf-8") as new_info:
     json.dump(info_data, new_info,indent=4,ensure_ascii=False)
 

@@ -42,7 +42,6 @@
 
 - [a034:二進位制轉換](https://zerojudge.tw/ShowProblem?problemid=a034)
 - [a121:質數又來囉](https://zerojudge.tw/ShowProblem?problemid=a121)
-- [c462:apcs 交錯字串 (Alternating Strings)](https://zerojudge.tw/ShowProblem?problemid=c462)
 - [d097:10038 - Jolly Jumpers](https://zerojudge.tw/ShowProblem?problemid=d097)
 - [d123:11063 - B2-Sequence](https://zerojudge.tw/ShowProblem?problemid=d123)
 - [e969:3. 大吃大喝 (Big eater)](https://zerojudge.tw/ShowProblem?problemid=e969)
@@ -66,7 +65,7 @@ Gmail: henry.lee.code23@gmail.com
 
 
 
-最後更新時間: 2022.4.27 02點53分
+最後更新時間: 2022.4.27 03點09分
 
 
 最後更新時間可能因程式運行裝置不同而有所變化
