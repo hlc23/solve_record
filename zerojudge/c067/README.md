@@ -24,18 +24,18 @@
 
 ```
 輸入:
-6
-5 2 4 1 7 5
-3
-1 1 1
+6
+5 2 4 1 7 5
+3
+1 1 1
 0
 ---
 
 輸出:
-Set #1
-The minimum number of moves is 5.
-
-Set #2
+Set #1
+The minimum number of moves is 5.
+
+Set #2
 The minimum number of moves is 0.
 ```
 
@@ -113,4 +113,4 @@ while True:
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.5.5 14點42分
+此頁面最後編輯時間: 2022-06-21 11:54:03.897272+08:00

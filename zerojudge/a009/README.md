@@ -23,26 +23,26 @@
 
 ```
 輸入:
-1JKJ'pz'{ol'{yhklthyr'vm'{ol'Jvu{yvs'Kh{h'Jvywvyh{pvu5
-
+1JKJ'pz'{ol'{yhklthyr'vm'{ol'Jvu{yvs'Kh{h'Jvywvyh{pvu5
+
 
 ---
 
 輸出:
-*CDC is the trademark of the Control Data Corporation.
+*CDC is the trademark of the Control Data Corporation.
 
 ```
 範例2
 
 ```
 輸入:
-1PIT'pz'h'{yhklthyr'vm'{ol'Pu{lyuh{pvuhs'I|zpulzz'Thjopul'Jvywvyh{pvu5
+1PIT'pz'h'{yhklthyr'vm'{ol'Pu{lyuh{pvuhs'I|zpulzz'Thjopul'Jvywvyh{pvu5
 
 ---
 
 輸出:
-*IBM is a trademark of the International Business Machine Corporation.
-
+*IBM is a trademark of the International Business Machine Corporation.
+
 
 ```
 
@@ -87,4 +87,4 @@ print(output)
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.5.5 14點42分
+此頁面最後編輯時間: 2022-06-21 11:54:02.915967+08:00

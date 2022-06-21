@@ -23,12 +23,12 @@
 
 ```
 輸入:
-world
+world
 
 ---
 
 輸出:
-hello, world
+hello, world
 
 ```
 範例2
@@ -77,4 +77,4 @@ print("hello,",inp_text)
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.5.5 14點42分
+此頁面最後編輯時間: 2022-06-21 11:54:02.524623+08:00

@@ -25,24 +25,24 @@ PS: 答案均為整數，若有兩個根則大者在前
 
 ```
 輸入:
-1 3 -10
+1 3 -10
 
 ---
 
 輸出:
-Two different roots x1=2 , x2=-5
+Two different roots x1=2 , x2=-5
 
 ```
 範例2
 
 ```
 輸入:
-1 0 0
+1 0 0
 
 ---
 
 輸出:
-Two same roots x=0
+Two same roots x=0
 
 ```
 範例3
@@ -99,4 +99,4 @@ else:
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.5.5 14點42分
+此頁面最後編輯時間: 2022-06-21 11:54:02.817195+08:00

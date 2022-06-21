@@ -2,6 +2,7 @@ from hlc23.zerojudge_crawler import zj_crawler
 import os
 import json
 import time
+import datetime
 
 def serach_language(id):
     '''
@@ -119,7 +120,7 @@ for id in zj_solved_id:
             for l in serach_language(id):
                 md.write(f'''- GitHub: [{l}程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.{l})\n''')
             md.write(f'''\n\n- 題目來源: [zerojudge]({zj.zj_url})\n\n## [回首頁](https://henryleecode23.github.io/solve_record/)\n\n''')
-            md.write(f'''此頁面最後編輯時間: {get_ymd()} {get_time_with_word()}\n''')
+            md.write(f'''此頁面最後編輯時間: {datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8)))}\n''')
         print(f"id:{id} finish")
 
     except: #未知錯誤
@@ -157,5 +158,5 @@ with open("README.md", mode="w",encoding="utf-8") as readme:
     # extra
     with open("extra.md",mode="r",encoding="utf-8") as extra:
         readme.write(extra.read())
-    readme.write(f'''\n\n\n\n最後更新時間: {get_ymd()} {get_time_with_word()}\n\n\n''')
+    readme.write(f'''\n\n\n\n最後更新時間: {datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8)))}\n\n\n''')
     readme.write('''最後更新時間可能因程式運行裝置不同而有所變化''')

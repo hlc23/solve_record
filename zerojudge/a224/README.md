@@ -22,22 +22,22 @@
 
 ```
 輸入:
-ababa
-bbaaa
-Level
-aaabbbcc
-abcdefg
-HowAreYouToday
+ababa
+bbaaa
+Level
+aaabbbcc
+abcdefg
+HowAreYouToday
 A_man,_a_plan,_a_canal:_Panama.
 ---
 
 輸出:
-yes !
-yes !
-yes !
-no...
-no...
-no...
+yes !
+yes !
+yes !
+no...
+no...
+no...
 yes !
 ```
 
@@ -77,4 +77,4 @@ for n in range(t):
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.5.5 14點42分
+此頁面最後編輯時間: 2022-06-21 11:54:03.403381+08:00

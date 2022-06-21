@@ -22,21 +22,21 @@
 
 ```
 輸入:
-4
-1 2 4 8
-4
-3 7 10 14
-5
+4
+1 2 4 8
+4
+3 7 10 14
+5
 13 14 15 16 17
 ---
 
 輸出:
-Case #1: It is a B2-Sequence.
-
-Case #2: It is not a B2-Sequence.
-
-Case #3: It is not a B2-Sequence.
-
+Case #1: It is a B2-Sequence.
+
+Case #2: It is not a B2-Sequence.
+
+Case #3: It is not a B2-Sequence.
+
 
 ```
 
@@ -91,4 +91,4 @@ int main(int argc, char** argv) {
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022.5.5 14點42分
+此頁面最後編輯時間: 2022-06-21 11:54:05.238049+08:00
