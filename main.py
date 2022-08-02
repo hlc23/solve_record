@@ -159,4 +159,3 @@ with open("README.md", mode="w",encoding="utf-8") as readme:
     with open("extra.md",mode="r",encoding="utf-8") as extra:
         readme.write(extra.read())
     readme.write(f'''\n\n\n\n最後更新時間: {datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8)))}\n\n\n''')
-    readme.write('''最後更新時間可能因程式運行裝置不同而有所變化''')

@@ -52,10 +52,6 @@
 
 ## NHDK Ten Point Round
 
-### TPR17
-
-[A.Pool](./NHDK/TPR17/A.Pool/)
-
 ### TPR18
 
 [A.加法與減法 (Addition and Subtraction)](./NHDK/TPR18/A.加法與減法 (Addition and Subtraction)/)
@@ -73,7 +69,6 @@ Gmail: henry.lee.code23@gmail.com
 
 
 
-最後更新時間: 2022-06-21 11:54:06.193799+08:00
+最後更新時間: 2022-08-02 15:31:58.714084+08:00
 
 
-最後更新時間可能因程式運行裝置不同而有所變化
