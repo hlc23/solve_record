@@ -1,4 +1,4 @@
-from hlc23.zerojudge_crawler import zj_crawler
+from lib.zerojudge_crawler import zj_crawler
 import os
 import json
 import time
