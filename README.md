@@ -43,13 +43,6 @@
 - [d010:盈數、虧數和完全數](./zerojudge/d010/)
 - [d669:11677 - Alarm Clock](./zerojudge/d669/)
 
-### 待解
-
-- [a034:二進位制轉換](https://zerojudge.tw/ShowProblem?problemid=a034)
-- [a121:質數又來囉](https://zerojudge.tw/ShowProblem?problemid=a121)
-- [d097:10038 - Jolly Jumpers](https://zerojudge.tw/ShowProblem?problemid=d097)
-- [e969:3. 大吃大喝 (Big eater)](https://zerojudge.tw/ShowProblem?problemid=e969)
-
 ## NHDK Ten Point Round
 
 ### TPR18
@@ -66,9 +59,3 @@
 這個網站是使用Github page及自己寫的腳本和爬蟲所完成，目的是想記錄自己解題~~也許還能順便當學習歷程~~，我認為在許多細節還有許多地方可以改進，以及程式能有更好的寫法，如果有什麼建議想要提供，或是我的程式有哪些地方有Bug想要告訴我，歡迎到這個專案的[Github頁面](https://henryleecode23.github.io/solve_record/)發issues或是透過電子郵件聯絡我
 
 Gmail: henry.lee.code23@gmail.com
-
-
-
-最後更新時間: 2022-08-02 15:31:58.714084+08:00
-
-
