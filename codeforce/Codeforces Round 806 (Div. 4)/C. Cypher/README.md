@@ -2,7 +2,7 @@
 
 ![content](https://imgur.com/Ji6HEe7.png)
 
-## py
+## [py](https://github.com/henryleecode23/solve_record/blob/main/codeforce/Codeforces%20Round%20806%20(Div.%204)/C.%20Cypher/main.py)
 
 ```py
 testcases = int(input())
