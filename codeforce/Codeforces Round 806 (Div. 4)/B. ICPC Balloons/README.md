@@ -2,7 +2,7 @@
 
 ![content](https://imgur.com/ZlhhGw0.png)
 
-## py
+## [py](https://github.com/henryleecode23/solve_record/blob/main/codeforce/Codeforces%20Round%20806%20(Div.%204)/B.%20ICPC%20Balloons/main.py)
 
 ```py
 testcase = int(input())

@@ -6,7 +6,7 @@
 
 將輸入字串統一大小再進行比對
 
-## [py](main.py)
+## [py](https://github.com/henryleecode23/solve_record/blob/main/codeforce/Codeforces%20Round%20806%20(Div.%204)/A.%20YES%20or%20YES/main.py)
 
 ```py
 t = int(input())
