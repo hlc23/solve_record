@@ -1,6 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-//將小時轉為分鐘 
+
 int h2m(int h){
 	return 60*h;
 }

@@ -37,8 +37,34 @@ Daniela 在一家大醫院當護士，工作時間常變來變去。更糟的是
 ## 程式碼
 cpp
 
+```cpp
+#include <iostream>
+using namespace std;
 
-在讀取main.cpp時編碼錯誤
+int h2m(int h){
+	return 60*h;
+}
+
+int main(int argc, char** argv) {
+	int h1,m1,h2,m2,M1,M2;
+	while(cin>>h1>>m1>>h2>>m2){
+		if (h1 == 0,h2 == 0,m1 == 0 ,m2 == 0){
+		}
+		else{
+			M1 = h2m(h1)+m1;
+			M2 = h2m(h2)+m2;
+			if (M1 > M2){
+				cout<<(M2+1440)-M1<<endl;
+			}
+			else{
+				cout<<M2-M1<<endl;
+			}
+		}
+	}
+	return 0;
+}
+
+```
 
 py
 
@@ -79,4 +105,5 @@ main()
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022-08-02 15:31:57.733935+08:00
+
+最後編輯時間: 2022-09-19 20:07:55

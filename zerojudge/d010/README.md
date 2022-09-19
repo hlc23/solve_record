@@ -102,8 +102,29 @@ int main(){
 
 py
 
+```py
+def run(N):
+    l = []
+    for i in range(1,N):
+        if N % i == 0:
+            l.append(i)
+    if N == sum(l):
+        print("完全數")
+    elif N>sum(l):
+        print("虧數")
+    elif N<sum(l):
+        print("盈數")   
 
-在讀取main.py時編碼錯誤
+def main():
+    try:
+        while True:
+            N = int(input())
+            run(N)
+    except:
+        return
+
+main()
+```
 
 ## 標籤
 - 數學
@@ -118,4 +139,5 @@ py
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022-08-02 15:31:56.465383+08:00
+
+最後編輯時間: 2022-09-19 20:07:59

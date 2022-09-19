@@ -1,112 +1,75 @@
 from lib.zerojudge_crawler import zj_crawler
 import os
 import json
-import time
+import traceback
 import datetime
 
-def serach_language(id):
-    '''
-    判斷此id有哪些語言
-    '''
-    language = ["cpp","py"]
-    run_language = []
-    for l in language:
-        if f"main.{l}" in os.listdir(f"./zerojudge/{id}/"):
-            run_language.append(l)
-    return run_language
+# zerojudge
+# --------------------------------
+detected_cpp = []
+detected_py = []
 
-def get_ymd(interval: str = ".") -> str:
-    '''
-    Input:
-        分隔號
-    Process:
-        獲取西元年月日
-    Output:
-        西元年月日
-        ex. 2022.3.17
-    '''
-    y = str(int(time.strftime("%Y", time.localtime())))
-    m = str(int(time.strftime("%m", time.localtime())))
-    d = str(int(time.strftime("%d", time.localtime())))
-    result = y+interval+m+interval+d
-    return result
-
-def get_time_with_word() -> str:
-    '''
-    Input:
-        None
-    Process:
-        獲取時間並格式化
-    Output:
-        輸出格式化時間
-        ex. 16:12:06
-    '''
-    result = time.strftime("%H點%M分", time.localtime())
-    return result
-
-# 重置error.txt
-with open("error.txt",mode = "w",encoding="utf-8") as error:
-    pass
-
-# 取得所有id
-zj_solved_id = sorted(os.listdir("./zerojudge"))
-
-# 讀取info.json並修改zj_solved_id
-with open("info.json",mode="r",encoding="utf-8") as info:
-    info_data = json.load(info)
-
-info_data['unsolve'] = sorted(info_data['unsolve'])
-
-for id in info_data['unsolve']:
-    if id in zj_solved_id:
-        info_data['unsolve'].remove(id)
-
-for id in info_data['solving']:
-    if id in zj_solved_id:
-      zj_solved_id.remove(id)
-
-with open("info.json",mode="w",encoding="utf-8") as new_info:
-    json.dump(info_data, new_info,indent=4,ensure_ascii=False)
+# detect language in each id
+for zj_id in os.listdir("./zerojudge/"):
+    files = os.listdir(f"./zerojudge/{zj_id}")
+    if "main.cpp" in files:
+        detected_cpp.append(zj_id)
+    if "main.py" in files:
+        detected_py.append(zj_id)
 
 
-cpp_list = []
-py_list = []
+zj_index = {"cpp":sorted(detected_cpp),"py":sorted(detected_py)}
 
-# 運行各個題目id
-for id in zj_solved_id:
-    # 顯示當前運作id
-    print("running id :",id)
+# read last time record
+with open("lang.json", mode="r",encoding="utf-8") as lang_file:
+    lang_data = json.load(lang_file)
 
+# recover last time record
+with open("lang.json", mode="w", encoding="utf-8") as lang_file:
+    json.dump(zj_index, lang_file, indent=4, ensure_ascii=False)
+
+
+
+# new - old = need_write
+for id in lang_data["cpp"]:
+    if id in detected_cpp:
+        detected_cpp.remove(id)
+for id in lang_data["py"]:
+    if id in detected_py:
+        detected_py.remove(id)
+
+need_write = sorted(set(detected_cpp + detected_py))
+
+# run crawler for need_write
+
+for id in need_write:
     try:
         zj = zj_crawler(id)
         with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
-            # 敘述、說明、範例標題
+            # titel, context
             md.write(f'''# {zj.title}\n\n## 敘述\n\n{zj.problem_content}\n\n## 說明\n\n輸入:\n\n{zj.input_illustrate}\n\n---\n\n輸出:\n\n{zj.output_illustrate}\n\n## 範例\n''')
-            # 範例
+            # sample
             c = 1
             for t in range(zj.ex_test_case_quantity):
                 md.write(f'''範例{c}\n\n```\n輸入:\n{zj.ex_input_list[t]}\n---\n\n輸出:\n{zj.ex_output_list[t]}\n```\n''')
                 c += 1
-            # 程式碼
+
+            # code
             md.write('''\n## 程式碼''')
-            # 各語言程式碼
-            for l in serach_language(id):
-                if l == "cpp":
-                    cpp_list.append(f"- [{zj.title}](./zerojudge/{id}/)")
-                if l == "py":
-                    py_list.append(f"- [{zj.title}](./zerojudge/{id}/)")
+            
+            files = os.listdir(f"./zerojudge/{id}/")
+
+            for l in ["cpp", "py"]:
                 try:
-                    with open(f"./zerojudge/{id}/main.{l}",mode="r",encoding="utf-8") as file:
-                        code = file.read()
-                    md.write(f'''\n{l}\n\n```{l}\n{code}\n```\n''')
+                    if f"main.{l}" in files:
+                        with open(f"./zerojudge/{id}/main.{l}",mode="r",encoding="utf-8") as file:
+                            code = file.read()
+                        md.write(f'''\n{l}\n\n```{l}\n{code}\n```\n''')
+                except Exception as e:
+                    print(f"Error while running {l} in {id}")
+                    print(traceback.format_exc())
 
-                except UnicodeDecodeError:
-                    md.write(f'''\n{l}\n\n''')
-                    md.write(f'''\n在讀取main.{l}時編碼錯誤\n''')
-                    with open("error.txt",mode="a",encoding="utf-8") as error:
-                        error.write(f"{id}: 編碼錯誤\n")
-
-            # 標籤
+            # tab
             md.write('\n## 標籤\n')
             if len(zj.tags_list) == 0:
                 md.write("\n")
@@ -114,48 +77,49 @@ for id in zj_solved_id:
             else:
                 for t in range(len(zj.tags_list)):
                     md.write(f"- {zj.tags_list[t]}\n")
-            # 連結
+            
+            # links
             md.write('''\n\n## 連結\n''')
-            # 各語言連結
-            for l in serach_language(id):
-                md.write(f'''- GitHub: [{l}程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.{l})\n''')
+            for l in ["cpp", "py"]:
+                if f"main.{l}" in files:
+                    md.write(f'''- GitHub: [{l}程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/{id}/main.{l})\n''')
             md.write(f'''\n\n- 題目來源: [zerojudge]({zj.zj_url})\n\n## [回首頁](https://henryleecode23.github.io/solve_record/)\n\n''')
-            md.write(f'''此頁面最後編輯時間: {datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8)))}\n''')
-        print(f"id:{id} finish")
+            
+            # last edit time
+            time = datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8)))
+            md.write(f'''\n最後編輯時間: {time:%Y-%m-%d %H:%M:%S}''')
 
-    except: #未知錯誤
-        print("Unknow error")
-        with open(f"./zerojudge/{id}/README.md",mode="w",encoding="utf-8") as md:
-            md.write(f'''# 錯誤\n\n# 作者太弱了,程式在生成這一頁時發生了未知錯誤\n\n## 歡迎各路大佬指教\n\n# 題目來源: [{zj.title}]({zj.zj_url})\n\n# [回首頁](https://henryleecode23.github.io/solve_record/)''')
-        with open("error.txt",mode="a",encoding="utf-8") as error:
-            error.write(f"{id}: 未知錯誤\n")
+    except:
+        print(traceback.format_exc())
 
-with open("README.md",mode = "w",encoding="utf-8"):
-    pass
+# index
+# --------------------------------
 
 with open("README.md", mode="w",encoding="utf-8") as readme:
     # zerojudge
     readme.write("# 解題紀錄\n\n## zerojudge\n\n### 題目\n")
-    if len(cpp_list) > 0:
-        readme.write("\n#### cpp\n\n")
-        for text in cpp_list:
-            readme.write(text+"\n")
-    if len(py_list) > 0:
-        readme.write("\n#### py\n\n")
-        for text in py_list:
-            readme.write(text+"\n")
-    if len(info_data['unsolve']) >0:
-        readme.write("\n### 待解\n\n")
-        for id in info_data["unsolve"]:
-            zj = zj_crawler(id)
-            readme.write(f"- [{zj.title}]({zj.zj_url})\n")
+
+    for lang in ["cpp", "py"]:
+        readme.write(f"\n#### {lang}\n\n")
+        for id in zj_index[lang]:
+            readme.write(f"- [{zj_crawler(id).title}](./zerojudge/{id})\n")
+
+    # codeforces
+
+    readme.write(f"\n## Codeforces\n\n")
+    for content in os.listdir("./codeforce/"):
+        readme.write(f"\n- [{content}](./zerojudge/{content})\n")
+    
     # NHDK
     readme.write('''\n## NHDK Ten Point Round\n\n''')
     for n in sorted(os.listdir("./NHDK/")):
         readme.write(f'''### {n}\n\n''')
         for p in sorted(os.listdir(f"./NHDK/{n}")):
-            readme.write(f'''[{p}](./NHDK/{n}/{p}/)\n\n''')
+            readme.write(f'''[{p}](./NHDK/{n}/{p}/)  \n''')
     # extra
     with open("extra.md",mode="r",encoding="utf-8") as extra:
         readme.write(extra.read())
-    readme.write(f'''\n\n\n\n最後更新時間: {datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8)))}\n\n\n''')
+    
+    # edit time
+    time = datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8)))
+    readme.write(f"\n\nLast updated:{time:%Y-%m-%d %H:%M:%S}")

@@ -34,15 +34,26 @@
 ```
 
 ## 程式碼
+py
+
+```py
+input()
+num = [int(i) for i in input().split()]
+
+print(*sorted(num), '\n', *sorted(set(num), reverse=True))
+```
+
 ## 標籤
 
 無
 
 ## 連結
+- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/c508/main.py)
 
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=c508)
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022-08-02 15:31:56.292054+08:00
+
+最後編輯時間: 2022-09-19 20:21:45

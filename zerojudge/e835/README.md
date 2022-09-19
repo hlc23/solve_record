@@ -69,8 +69,35 @@ Y19m08a_p2_表演座位 (Seats)    2019年,08月,TOI, 新手同好會  {題�
 ## 程式碼
 cpp
 
+```cpp
+#include <iostream>
+using namespace std;
 
-在讀取main.cpp時編碼錯誤
+int main(int argc, char** argv) {
+	int id,num,row,col;
+	cin>>id;
+	if (id<=2500){
+		num=1;
+		row=(id-1)/25+1;
+		col=(id-1)%25+1;
+	}
+	else if (id<=7500){
+		num=2;
+		id=id-2500;
+		row=(id-1)/50+1;
+		col=(id-1)%50+1;
+	}
+	else{
+		num=3;
+		id=id-7500;
+		row=(id-1)/25+1;
+		col=(id-1)%25+1;
+	}
+	cout<<num<<" "<<row<<" "<<col;
+	return 0;
+}
+
+```
 
 ## 標籤
 
@@ -84,4 +111,5 @@ cpp
 
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
-此頁面最後編輯時間: 2022-08-02 15:31:58.196850+08:00
+
+最後編輯時間: 2022-09-19 20:07:52
