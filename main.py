@@ -103,6 +103,12 @@ with open("README.md", mode="w",encoding="utf-8") as readme:
         readme.write(f"\n#### {lang}\n\n")
         for id in zj_index[lang]:
             readme.write(f"- [{zj_crawler(id).title}](./zerojudge/{id})\n")
+
+    # codeforces
+
+    readme.write(f"\n## Codeforces\n\n")
+    for content in os.listdir("./codeforce/"):
+        readme.write(f"\n- [{content}](./zerojudge/{content})\n")
     
     # NHDK
     readme.write('''\n## NHDK Ten Point Round\n\n''')
