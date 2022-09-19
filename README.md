@@ -50,7 +50,7 @@
 ## Codeforces
 
 
-- [Codeforces Round #806 (Div. 4)](./codeforce/Codeforces Round #806 (Div. 4)/)
+- [Codeforces Round 806 (Div. 4)](./codeforce/Codeforces Round 806 (Div. 4))
 
 ## NHDK Ten Point Round
 
@@ -66,4 +66,4 @@
 
 Gmail: henry.lee.code23@gmail.com
 
-Last updated:2022-09-19 21:35:08
+Last updated:2022-09-19 23:27:01
