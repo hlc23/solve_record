@@ -102,7 +102,7 @@ with open("README.md", mode="w",encoding="utf-8") as readme:
     for lang in ["cpp", "py"]:
         readme.write(f"\n#### {lang}\n\n")
         for id in zj_index[lang]:
-            readme.write(f"[{zj_crawler(id).title}](./zerojudge/{id})\n\n")
+            readme.write(f"- [{zj_crawler(id).title}](./zerojudge/{id})\n")
     
     # NHDK
     readme.write('''\n## NHDK Ten Point Round\n\n''')
