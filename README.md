@@ -50,7 +50,7 @@
 ## Codeforces
 
 
-- [Codeforces Round #806 (Div. 4)](./zerojudge/Codeforces Round #806 (Div. 4))
+- [Codeforces Round #806 (Div. 4)](./codeforce/Codeforces Round #806 (Div. 4))
 
 ## NHDK Ten Point Round
 
