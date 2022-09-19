@@ -4,11 +4,11 @@ def run(N):
         if N % i == 0:
             l.append(i)
     if N == sum(l):
-        print("§¹¥þ¼Æ")
+        print("å®Œå…¨æ•¸")
     elif N>sum(l):
-        print("Á«¼Æ")
+        print("è™§æ•¸")
     elif N<sum(l):
-        print("¬Õ¼Æ")   
+        print("ç›ˆæ•¸")   
 
 def main():
     try:

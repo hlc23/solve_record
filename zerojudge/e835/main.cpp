@@ -1,10 +1,5 @@
 #include <iostream>
 using namespace std;
-// zerojudge 0835
-// 輸入:1~10000
-// 輸出:區域 num,列 row,行 col
-// 區域 1 or 3 列 1~100 行 1~25 
-// 區域 2 列 1~100 行 1~50
 
 int main(int argc, char** argv) {
 	int id,num,row,col;
