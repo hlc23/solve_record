@@ -18,6 +18,7 @@
 - [c022:10783 - Odd Sum](./zerojudge/c022)
 - [c024:10079 - Pizza Cutting](./zerojudge/c024)
 - [c067:00591 - Box of Bricks](./zerojudge/c067)
+- [c299:1. 連號或不連號](./zerojudge/c299)
 - [c462:apcs 交錯字串 (Alternating Strings)](./zerojudge/c462)
 - [c463:apcs 樹狀圖分析 (Tree Analyses)](./zerojudge/c463)
 - [d010:盈數、虧數和完全數](./zerojudge/d010)
@@ -43,6 +44,7 @@
 - [a147:Print it all](./zerojudge/a147)
 - [a224:明明愛明明](./zerojudge/a224)
 - [c067:00591 - Box of Bricks](./zerojudge/c067)
+- [c299:1. 連號或不連號](./zerojudge/c299)
 - [c508:去蟲](./zerojudge/c508)
 - [d010:盈數、虧數和完全數](./zerojudge/d010)
 - [d669:11677 - Alarm Clock](./zerojudge/d669)
@@ -66,4 +68,4 @@
 
 Gmail: henry.lee.code23@gmail.com
 
-Last updated:2022-09-19 23:27:01
+Last updated:2022-09-20 18:54:41
