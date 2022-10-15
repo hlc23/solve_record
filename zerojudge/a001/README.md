@@ -57,6 +57,22 @@ hello, Taiwan
 ```
 
 ## 程式碼
+cpp
+
+```cpp
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    string text;
+    cin>>text;
+    cout<<"hello, "<<text<<endl;
+    return 0;
+}
+
+```
+
 py
 
 ```py
@@ -70,6 +86,7 @@ print("hello,",inp_text)
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a001/main.cpp)
 - GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a001/main.py)
 
 
@@ -78,4 +95,4 @@ print("hello,",inp_text)
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
 
-最後編輯時間: 2022-09-19 20:07:56
+最後編輯時間: 2022-10-16 01:49:07

@@ -71,12 +71,29 @@ int main(int argc, char** argv) {
 
 ```
 
+py
+
+```py
+inp = input().split()
+M = int(inp[0])
+D = int(inp[1])
+if ((M*2+D)%3 == 0):
+    print("普通")
+elif ((M*2+D)%3 == 1):
+    print("吉")
+else:
+    print("大吉")
+
+
+```
+
 ## 標籤
 - 曆法
 
 
 ## 連結
 - GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.cpp)
+- GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a003/main.py)
 
 
 - 題目來源: [zerojudge](https://zerojudge.tw/ShowProblem?problemid=a003)
@@ -84,4 +101,4 @@ int main(int argc, char** argv) {
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
 
-最後編輯時間: 2022-09-19 20:07:58
+最後編輯時間: 2022-10-16 01:49:08

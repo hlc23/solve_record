@@ -59,6 +59,28 @@ No real root
 ```
 
 ## 程式碼
+cpp
+
+```cpp
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    int a, b, c, R;
+    cin>>a>>b>>c;
+    R = pow(b, 2)-4*a*c;
+    if (R>0){
+        int x1 =(-1*b+pow(R, 0.5))/2*a,
+            x2 =(-1*b-pow(R, 0.5))/2*a;
+        if (x1 > x2) cout<<"Two different roots x1="<<x1<<" , x2="<<x2<<endl;
+        else cout<<"Two different roots x1="<<x2<<" , x2="<<x1<<endl;
+    }
+    else if (R==0) cout<<"Two same roots x="<<(-1*b)/(2*a)<<endl;
+    else cout<<"No real root"<<endl;
+    return 0;
+}
+```
+
 py
 
 ```py
@@ -92,6 +114,7 @@ else:
 
 
 ## 連結
+- GitHub: [cpp程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.cpp)
 - GitHub: [py程式碼](https://github.com/henryleecode23/solve_record/blob/main/zerojudge/a006/main.py)
 
 
@@ -100,4 +123,4 @@ else:
 ## [回首頁](https://henryleecode23.github.io/solve_record/)
 
 
-最後編輯時間: 2022-09-19 20:07:51
+最後編輯時間: 2022-10-16 01:49:08

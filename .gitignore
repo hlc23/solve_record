@@ -12,5 +12,8 @@ pyproject.toml
 test.py
 test2.py
 test3.py
+test.cpp
+test2.cpp
 .venv
 .vscode
+test.md

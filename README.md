@@ -6,8 +6,12 @@
 
 #### cpp
 
+- [a001:哈囉](./zerojudge/a001)
+- [a002:簡易加法](./zerojudge/a002)
 - [a003:兩光法師占卜術](./zerojudge/a003)
+- [a004:文文的求婚](./zerojudge/a004)
 - [a005:Eva 的回家作業](./zerojudge/a005)
+- [a006:一元二次方程式](./zerojudge/a006)
 - [a009:解碼器](./zerojudge/a009)
 - [a038:數字翻轉](./zerojudge/a038)
 - [a058:MOD3](./zerojudge/a058)
@@ -19,7 +23,6 @@
 - [c024:10079 - Pizza Cutting](./zerojudge/c024)
 - [c067:00591 - Box of Bricks](./zerojudge/c067)
 - [c299:1. 連號或不連號](./zerojudge/c299)
-- [c463:apcs 樹狀圖分析 (Tree Analyses)](./zerojudge/c463)
 - [d010:盈數、虧數和完全數](./zerojudge/d010)
 - [d049:中華民國萬歲！](./zerojudge/d049)
 - [d051:糟糕，我發燒了！](./zerojudge/d051)
@@ -37,6 +40,9 @@
 #### py
 
 - [a001:哈囉](./zerojudge/a001)
+- [a002:簡易加法](./zerojudge/a002)
+- [a003:兩光法師占卜術](./zerojudge/a003)
+- [a004:文文的求婚](./zerojudge/a004)
 - [a006:一元二次方程式](./zerojudge/a006)
 - [a009:解碼器](./zerojudge/a009)
 - [a020:身分證檢驗](./zerojudge/a020)
@@ -67,4 +73,4 @@
 
 Gmail: henry.lee.code23@gmail.com
 
-Last updated:2022-09-22 23:33:00
+Last updated:2022-10-16 01:49:14
