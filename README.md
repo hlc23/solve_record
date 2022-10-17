@@ -13,6 +13,8 @@
 - [a005:Eva 的回家作業](./zerojudge/a005)
 - [a006:一元二次方程式](./zerojudge/a006)
 - [a009:解碼器](./zerojudge/a009)
+- [a015:矩陣的翻轉](./zerojudge/a015)
+- [a034:二進位制轉換](./zerojudge/a034)
 - [a038:數字翻轉](./zerojudge/a038)
 - [a058:MOD3](./zerojudge/a058)
 - [a104:排序](./zerojudge/a104)
@@ -21,6 +23,7 @@
 - [c013:00488 - Triangle Wave](./zerojudge/c013)
 - [c022:10783 - Odd Sum](./zerojudge/c022)
 - [c024:10079 - Pizza Cutting](./zerojudge/c024)
+- [c039:00100 - The 3n + 1 problem](./zerojudge/c039)
 - [c067:00591 - Box of Bricks](./zerojudge/c067)
 - [c299:1. 連號或不連號](./zerojudge/c299)
 - [d010:盈數、虧數和完全數](./zerojudge/d010)
@@ -45,7 +48,9 @@
 - [a004:文文的求婚](./zerojudge/a004)
 - [a006:一元二次方程式](./zerojudge/a006)
 - [a009:解碼器](./zerojudge/a009)
+- [a015:矩陣的翻轉](./zerojudge/a015)
 - [a020:身分證檢驗](./zerojudge/a020)
+- [a034:二進位制轉換](./zerojudge/a034)
 - [a147:Print it all](./zerojudge/a147)
 - [a224:明明愛明明](./zerojudge/a224)
 - [c067:00591 - Box of Bricks](./zerojudge/c067)
@@ -58,6 +63,8 @@
 
 
 - [Codeforces Round 806 (Div. 4)](./codeforce/Codeforces Round 806 (Div. 4))
+
+- [Codeforces Round 827 (Div. 4)](./codeforce/Codeforces Round 827 (Div. 4))
 
 ## NHDK Ten Point Round
 
@@ -73,4 +80,4 @@
 
 Gmail: henry.lee.code23@gmail.com
 
-Last updated:2022-10-16 01:49:14
+Last updated:2022-10-17 23:53:52
