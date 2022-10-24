@@ -20,6 +20,7 @@
 - [a104:排序](./zerojudge/a104)
 - [a147:Print it all](./zerojudge/a147)
 - [a148:You Cannot Pass?!](./zerojudge/a148)
+- [b964:第 1 題 成績指標](./zerojudge/b964)
 - [c013:00488 - Triangle Wave](./zerojudge/c013)
 - [c022:10783 - Odd Sum](./zerojudge/c022)
 - [c024:10079 - Pizza Cutting](./zerojudge/c024)
@@ -39,6 +40,7 @@
 - [d827:買鉛筆](./zerojudge/d827)
 - [e834:P1.批發出貨(Wholesale)](./zerojudge/e834)
 - [e835:p2.表演座位 (Seats)](./zerojudge/e835)
+- [i428:1. 巴士站牌](./zerojudge/i428)
 
 #### py
 
@@ -53,11 +55,13 @@
 - [a034:二進位制轉換](./zerojudge/a034)
 - [a147:Print it all](./zerojudge/a147)
 - [a224:明明愛明明](./zerojudge/a224)
+- [b964:第 1 題 成績指標](./zerojudge/b964)
 - [c067:00591 - Box of Bricks](./zerojudge/c067)
 - [c299:1. 連號或不連號](./zerojudge/c299)
 - [c508:去蟲](./zerojudge/c508)
 - [d010:盈數、虧數和完全數](./zerojudge/d010)
 - [d669:11677 - Alarm Clock](./zerojudge/d669)
+- [i428:1. 巴士站牌](./zerojudge/i428)
 
 ## Codeforces
 
@@ -80,4 +84,4 @@
 
 Gmail: henry.lee.code23@gmail.com
 
-Last updated:2022-10-17 23:53:52
+Last updated:2022-10-25 00:08:31
