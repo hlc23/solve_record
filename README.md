@@ -41,6 +41,8 @@
 - [e834:P1.批發出貨(Wholesale)](./zerojudge/e834)
 - [e835:p2.表演座位 (Seats)](./zerojudge/e835)
 - [i428:1. 巴士站牌](./zerojudge/i428)
+- [j123:2. 運貨站](./zerojudge/j123)
+- [j125:4. 蓋步道](./zerojudge/j125)
 
 #### py
 
@@ -62,6 +64,7 @@
 - [d010:盈數、虧數和完全數](./zerojudge/d010)
 - [d669:11677 - Alarm Clock](./zerojudge/d669)
 - [i428:1. 巴士站牌](./zerojudge/i428)
+- [j123:2. 運貨站](./zerojudge/j123)
 
 ## Codeforces
 
@@ -84,4 +87,4 @@
 
 Gmail: henry.lee.code23@gmail.com
 
-Last updated:2022-10-25 00:08:31
+Last updated:2022-10-27 23:12:05
