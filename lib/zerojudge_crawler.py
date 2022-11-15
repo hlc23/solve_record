@@ -15,6 +15,7 @@ class zj_crawler():
 
         with request.urlopen(self.request_data, context=self.context) as resp:
             self.data = resp.read().decode("utf-8")
+            self.status = resp.status
 
         self.soup = bs4.BeautifulSoup(self.data, "html.parser")
 
