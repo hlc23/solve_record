@@ -17,7 +17,6 @@ int main() {
             }
             cout<<endl;
         }
-        // A=0; F=0;
     }
     return 0;
 }
