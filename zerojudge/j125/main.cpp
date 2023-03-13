@@ -1,87 +1,52 @@
-#include<iostream>
-#include<utility>
-#include<queue>
-#define int long long
-
+#include<bits/stdc++.h>
 using namespace std;
 
-int area[301][301], visited[301][301];
-int move_x[4] = {0, 0, -1, 1}, move_y[4] = {1, -1, 0, 0};
-int n, temp;
+int area[301][301];
+int move_x[4]={1, -1, 0, 0},
+	move_y[4]={0, 0, 1, -1};
+int visted[301][301];
+int n;
 
-bool BFS_check(int h){
-    for (int i=1; i<301; i++){
-        for (int j=1; j<301; j++){
-            visited[i][j] = -1;
-        }
-    }
-    visited[1][1] = 0;
-    queue<pair<int, int> > q;
-    q.push(make_pair(1, 1));
-    while (q.size() > 0){
-        pair<int, int> p = q.front();
-        q.pop();
-        int x=p.first, y=p.second;
-        for (int m=0; m<4; m++){    
-            int nx = x + move_x[m], ny = y + move_y[m];
-
-            if (nx < 1 || nx > n || ny < 1 || ny > n) continue;
-            if (visited[nx][ny] == -1){
-                if (abs(area[x][y]-area[nx][ny]) <= h){
-                    q.push(make_pair(nx, ny));
-                    visited[nx][ny] = visited[x][y]+1;
-                }
-            }
-        }
-    }
-    if (visited[n][n] != -1) return true;
-    return false;
+void init(){
+	for (int i=1; i<=n; i++){
+		for (int j=1; j<=n; j++) visted[i][j]=-1;
+	}
 }
 
-void solve(){
-    cin>>n;
-    for (int i=1; i<=n; i++){
-        for (int j=1; j<=n; j++){
-            cin>>temp;
-            area[i][j] = temp;
-        }
-    }
-    int l=0, r=1000001;
-    while (l<=r){
-        int mid = (l+r)/2;
-        if (BFS_check(mid)) r = mid-1;
-        else l = mid+1;
-    }
-    
-    for (int i=1; i<301; i++){
-        for (int j=1; j<301; j++){
-            visited[i][j] = -1;
-        }
-    }
-    visited[1][1] = 0;
-    queue<pair<int, int> > q;
-    q.push(make_pair(1, 1));
-    while (q.size() > 0){
-        pair<int, int> p = q.front();
-        q.pop();
-        int x=p.first, y=p.second;
-        for (int m=0; m<4; m++){    
-            int nx = x + move_x[m], ny = y + move_y[m];
-            if (nx < 1 || nx > n || ny < 1 || ny > n) continue;
-            if (visited[nx][ny] == -1){
-                if (abs(area[x][y]-area[nx][ny]) <= l){
-                    q.push(make_pair(nx, ny));
-                    visited[nx][ny] = visited[x][y]+1;
-                }
-            }
-        }
-    }
-    cout<<l<<"\n"<<visited[n][n];
+void bfs(int high){
+	init();
+	queue<pair<int, int> > q;
+	q.push(make_pair(1, 1));
+	visted[1][1] = 0;
+	while (q.size() > 0){
+		pair<int, int> p = q.front();
+		q.pop();
+		int x = p.first,
+			y = p.second;
+		for (int m=0; m<4; m++){
+			int tx = x + move_x[m],
+				ty = y + move_y[m];
+			if (tx <= 0 or ty <= 0 or tx > n or ty > n) continue;
+			if (abs(area[tx][ty] - area[x][y]) <= high and (visted[tx][ty] == -1)){
+				q.push(make_pair(tx, ty));
+				visted[tx][ty] = visted[x][y]+1;
+			}
+		}
+	}
 }
 
 signed main(){
-    ios::sync_with_stdio(false);
-	cin.tie(0);
-    solve();
-    return 0;
+	cin>>n;
+	for (int i=1; i<=n; i++){
+		for (int j=1; j<=n; j++) cin>>area[i][j];
+	}
+	int l=0, r=1e6;
+	while (l <= r){
+		int m = (l+r)/2;
+		bfs(m);
+		if (visted[n][n] !=  -1) r = m-1;
+		else l = m+1;
+	}
+	bfs(l);
+	cout<<l<<"\n"<<visted[n][n];
 }
