@@ -2,17 +2,17 @@
 using namespace std;
 
 int main() {
-    int test_case, A,F;
-    cin>>test_case;
-    for (int i = 0; i<test_case; i++){
+    int n, A,F;
+    cin>>n;
+    for (int i = 0; i<n; i++){
         cin>>A>>F;
         for (int time = 0; time < F; time++){
-            for (int n = 1;n<=A; n++){
-                for (int t = 1; t<=n;t++) cout<<n;
+            for (int h = 1;h<=A; h++){
+                for (int t = 1; t<=h;t++) cout<<h;
                 cout<<endl;
             }
-            for (int n = A-1; n>=1;n--){
-                for (int t = 1; t<=n; t++) cout<<n;
+            for (int h = A-1; h>=1; h--){
+                for (int t = 1; t<=h; t++) cout<<h;
                 cout<<endl;
             }
             cout<<endl;
