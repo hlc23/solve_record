@@ -24,7 +24,7 @@ public:
         _zero = zero;
         _one = one;
         long long ans = 0;
-        dp.resize(1e6+1, -1);
+        dp.resize(high+1, -1);
         dp[0] = 1;
         for (int i=high; i>=low; i--){
             ans += append(i);
