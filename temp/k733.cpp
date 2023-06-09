@@ -8,10 +8,10 @@ int c2i(char c){
 
 struct Loop{
     int times,
-        pre,
-        head,
+        pre, // pos before loop
+        head, // first pos in loop
         end;
-    int inside_move = 0;
+    int inside_move = 0; // move inside loop
     Loop(){}
     Loop(int t, int p, int h):times(t), pre(p), head(h){}
     int count(){

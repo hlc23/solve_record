@@ -5,31 +5,31 @@ const int MAX = 1e5+5;
 
 int N, a, b;
 int fn = 0;
-vector<vector<int> > table;
+vector<vector<int> > unlock;
 vector<int> d;
 
 void dfs(int node, int from){
     d[node] = d[from] + 1;
     if (d[node] > d[fn]) fn = node;
-    for (int i=0; i<table[node].size(); i++){
-        if (table[node][i] != from){
-            dfs(table[node][i], node);
+    for (int i=0; i<unlock[node].size(); i++){
+        if (unlock[node][i] != from){
+            dfs(unlock[node][i], node);
         }
     }
 }
 
 void solve(){
     fn = 0;
-    table.clear();
-    table.resize(N, vector<int>());
+    unlock.clear();
+    unlock.resize(N, vector<int>());
 
     d.clear();
     d.resize(N, 0);
 
     for (int i=0; i<N-1; i++){
         cin>>a>>b;
-        table[a].push_back(b);
-        table[b].push_back(a);
+        unlock[a].push_back(b);
+        unlock[b].push_back(a);
     }
     dfs(0, -1);
     d.clear();
