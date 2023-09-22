@@ -52,7 +52,7 @@ public:
             if (BFS(row, col, cells, mid)) left = mid + 1;
             else right = mid - 1;
         }
-        
+
         return right;
     }
 };
