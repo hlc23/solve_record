@@ -2,15 +2,8 @@
 using namespace std;
 
 int main(){
-    int n,y;
+    float n;
     cin>>n;
-    n = n+1 ;
-    for (int t = 1; t < n ;t++){   
-        cin>>y;
-        if( y%400==0 or ( y%4==0 and y%100!=0 ) )
-            cout << "a leap year" << endl;
-        else
-            cout << "a normal year" << endl;
-    }
+    cout<<n*9/5+32;
     return 0;
 }
